@@ -1,0 +1,2052 @@
+{
+  "paths": [
+    {
+      "id": "path-comp-foundations",
+      "title": "Computing, OS & Programming Foundations",
+      "tier": "Tier 1 - Foundations"
+    },
+    {
+      "id": "path-dev-toolchain",
+      "title": "Development Environment & Toolchain",
+      "tier": "Tier 1 - Foundations"
+    },
+    {
+      "id": "path-git-collab",
+      "title": "Git, GitHub & Collaborative Engineering",
+      "tier": "Tier 1 - Foundations"
+    },
+    {
+      "id": "path-net-comms",
+      "title": "Networking & Communication Protocols",
+      "tier": "Tier 1 - Foundations"
+    },
+    {
+      "id": "path-web-arch",
+      "title": "Web Architecture Foundations",
+      "tier": "Tier 2 - Core Application Engineering"
+    },
+    {
+      "id": "path-web-frontend",
+      "title": "Web Fundamentals & Frontend Engineering",
+      "tier": "Tier 2 - Core Application Engineering"
+    },
+    {
+      "id": "path-backend-apis",
+      "title": "Backend Engineering & API Design",
+      "tier": "Tier 2 - Core Application Engineering"
+    },
+    {
+      "id": "path-db-sql",
+      "title": "Databases, SQL & Relational Data Modeling",
+      "tier": "Tier 2 - Core Application Engineering"
+    },
+    {
+      "id": "path-orm-data-access",
+      "title": "ORMs & Application Data Integration",
+      "tier": "Tier 2 - Core Application Engineering"
+    },
+    {
+      "id": "path-sys-design",
+      "title": "Applied System Design & Architecture",
+      "tier": "Tier 2 - Core Application Engineering"
+    },
+    {
+      "id": "path-app-security",
+      "title": "Authentication, Authorization & Application Security",
+      "tier": "Tier 3 - Production Engineering"
+    },
+    {
+      "id": "path-testing-quality",
+      "title": "Testing, Debugging & Code Quality",
+      "tier": "Tier 3 - Production Engineering"
+    },
+    {
+      "id": "path-deploy-infra",
+      "title": "Deployment, Containers, CI/CD & Cloud Infrastructure",
+      "tier": "Tier 3 - Production Engineering"
+    },
+    {
+      "id": "path-ops-sre",
+      "title": "Operations, Observability & Production Engineering",
+      "tier": "Tier 3 - Production Engineering"
+    },
+    {
+      "id": "path-dist-systems",
+      "title": "Distributed Systems & Asynchronous Architecture",
+      "tier": "Tier 4 - Scaling & Specializations"
+    },
+    {
+      "id": "path-data-engineering",
+      "title": "Data Engineering Foundations",
+      "tier": "Tier 4 - Scaling & Specializations"
+    },
+    {
+      "id": "path-specializations",
+      "title": "Optional Specializations",
+      "tier": "Tier 4 - Scaling & Specializations"
+    }
+  ],
+  "modules": [
+    {
+      "id": "mod-comp-hardware-os",
+      "title": "Hardware, OS & Execution Mechanics",
+      "path_id": "path-comp-foundations"
+    },
+    {
+      "id": "mod-comp-cli-basics",
+      "title": "Command-Line Interface Fundamentals",
+      "path_id": "path-comp-foundations"
+    },
+    {
+      "id": "mod-comp-prog-models",
+      "title": "Programming Models & Data Formats",
+      "path_id": "path-comp-foundations"
+    },
+    {
+      "id": "mod-comp-data-modularity",
+      "title": "Algorithms, Modularity & Concurrency",
+      "path_id": "path-comp-foundations"
+    },
+    {
+      "id": "mod-dev-shell-env",
+      "title": "Shells, Environment & Editor Mastery",
+      "path_id": "path-dev-toolchain"
+    },
+    {
+      "id": "mod-dev-runtimes-pkgs",
+      "title": "Runtimes & Package Management",
+      "path_id": "path-dev-toolchain"
+    },
+    {
+      "id": "mod-dev-build-workspace",
+      "title": "Project Structure & Troubleshooting",
+      "path_id": "path-dev-toolchain"
+    },
+    {
+      "id": "mod-git-local-graph",
+      "title": "Local Version Control",
+      "path_id": "path-git-collab"
+    },
+    {
+      "id": "mod-git-remote-team",
+      "title": "Collaboration & Remote Sync",
+      "path_id": "path-git-collab"
+    },
+    {
+      "id": "mod-git-branch-merge",
+      "title": "Merging & Advanced History",
+      "path_id": "path-git-collab"
+    },
+    {
+      "id": "mod-net-foundations",
+      "title": "Network Addressing & DNS",
+      "path_id": "path-net-comms"
+    },
+    {
+      "id": "mod-net-transport",
+      "title": "Transport & HTTP Basics",
+      "path_id": "path-net-comms"
+    },
+    {
+      "id": "mod-net-security-realtime",
+      "title": "Security, Proxies & Real-Time",
+      "path_id": "path-net-comms"
+    },
+    {
+      "id": "mod-arch-core-concepts",
+      "title": "Software Systems & Request Lifecycles",
+      "path_id": "path-web-arch"
+    },
+    {
+      "id": "mod-fe-js-foundations",
+      "title": "JavaScript Fundamentals",
+      "path_id": "path-web-frontend"
+    },
+    {
+      "id": "mod-fe-browser-core",
+      "title": "HTML, CSS & Browser Rendering",
+      "path_id": "path-web-frontend"
+    },
+    {
+      "id": "mod-fe-dom-state",
+      "title": "DOM Manipulation, State & DevTools",
+      "path_id": "path-web-frontend"
+    },
+    {
+      "id": "mod-fe-react-modern",
+      "title": "Component Architecture (React)",
+      "path_id": "path-web-frontend"
+    },
+    {
+      "id": "mod-be-server-routing",
+      "title": "HTTP Servers, Routing & Middleware",
+      "path_id": "path-backend-apis"
+    },
+    {
+      "id": "mod-be-rest-contracts",
+      "title": "RESTful API Design & Validation",
+      "path_id": "path-backend-apis"
+    },
+    {
+      "id": "mod-be-production-apis",
+      "title": "Production APIs & Integrations",
+      "path_id": "path-backend-apis"
+    },
+    {
+      "id": "mod-db-relational-model",
+      "title": "Relational Foundations & Data Modeling",
+      "path_id": "path-db-sql"
+    },
+    {
+      "id": "mod-db-sql-querying",
+      "title": "SQL Querying & Data Manipulation",
+      "path_id": "path-db-sql"
+    },
+    {
+      "id": "mod-db-internals-ops",
+      "title": "Indexes, Transactions & Operations",
+      "path_id": "path-db-sql"
+    },
+    {
+      "id": "mod-orm-concepts",
+      "title": "ORM Fundamentals & Architectural Role",
+      "path_id": "path-orm-data-access"
+    },
+    {
+      "id": "mod-orm-prisma-core",
+      "title": "Practical ORM Implementation (Prisma)",
+      "path_id": "path-orm-data-access"
+    },
+    {
+      "id": "mod-orm-perf-failures",
+      "title": "Transactions, Performance & ORM Failures",
+      "path_id": "path-orm-data-access"
+    },
+    {
+      "id": "mod-sys-design-layers",
+      "title": "Architectural Patterns & Dependencies",
+      "path_id": "path-sys-design"
+    },
+    {
+      "id": "mod-sys-workflow",
+      "title": "Engineering Workflow, Diagrams & Trade-offs",
+      "path_id": "path-sys-design"
+    },
+    {
+      "id": "mod-sec-authn-identity",
+      "title": "Authentication & Identity Management",
+      "path_id": "path-app-security"
+    },
+    {
+      "id": "mod-sec-authz-access",
+      "title": "Authorization & Access Control Models",
+      "path_id": "path-app-security"
+    },
+    {
+      "id": "mod-sec-web-vulns-ops",
+      "title": "Common Web Vulnerabilities & Operational Security",
+      "path_id": "path-app-security"
+    },
+    {
+      "id": "mod-test-strategy-pyramid",
+      "title": "Automated Testing Strategy & Unit Testing",
+      "path_id": "path-testing-quality"
+    },
+    {
+      "id": "mod-test-integration-e2e",
+      "title": "Integration, API & E2E Testing",
+      "path_id": "path-testing-quality"
+    },
+    {
+      "id": "mod-test-debug-quality",
+      "title": "Debugging Methodology & Static Analysis",
+      "path_id": "path-testing-quality"
+    },
+    {
+      "id": "mod-deploy-linux-containers",
+      "title": "Linux Servers & Advanced Containers",
+      "path_id": "path-deploy-infra"
+    },
+    {
+      "id": "mod-deploy-web-cicd",
+      "title": "Reverse Proxies & CI/CD Pipelines",
+      "path_id": "path-deploy-infra"
+    },
+    {
+      "id": "mod-deploy-cloud-aws",
+      "title": "Cloud Infrastructure & AWS",
+      "path_id": "path-deploy-infra"
+    },
+    {
+      "id": "mod-ops-observability",
+      "title": "The Three Pillars of Observability",
+      "path_id": "path-ops-sre"
+    },
+    {
+      "id": "mod-ops-reliability",
+      "title": "Reliability, Scalability & Performance",
+      "path_id": "path-ops-sre"
+    },
+    {
+      "id": "mod-ops-incident-maint",
+      "title": "Incident Management & Maintenance",
+      "path_id": "path-ops-sre"
+    },
+    {
+      "id": "mod-dist-cache-queues",
+      "title": "Caching & Asynchronous Queues",
+      "path_id": "path-dist-systems"
+    },
+    {
+      "id": "mod-dist-streams",
+      "title": "Event Streaming & Consistency Trade-offs",
+      "path_id": "path-dist-systems"
+    },
+    {
+      "id": "mod-data-eng-core",
+      "title": "Core Data Engineering Concepts",
+      "path_id": "path-data-engineering"
+    },
+    {
+      "id": "mod-data-eng-scale",
+      "title": "Scaling Data Pipelines",
+      "path_id": "path-data-engineering"
+    },
+    {
+      "id": "mod-spec-ai",
+      "title": "AI & LLM Application Engineering",
+      "path_id": "path-specializations"
+    },
+    {
+      "id": "mod-spec-mobile",
+      "title": "Mobile Systems Architecture",
+      "path_id": "path-specializations"
+    },
+    {
+      "id": "mod-spec-iac-k8s",
+      "title": "Infrastructure as Code & Kubernetes",
+      "path_id": "path-specializations"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "les-comp-cpu-memory",
+      "title": "CPU, RAM, and Persistent Storage",
+      "module_id": "mod-comp-hardware-os",
+      "scope": "Explain how instructions and data flow from persistent disk into volatile RAM and are executed.",
+      "prerequisites": [],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-data-encoding",
+      "title": "Binary, Character Encoding, and Time",
+      "module_id": "mod-comp-hardware-os",
+      "scope": "Represent integers, floating-point numbers, UTF-8 text, and UTC timestamps.",
+      "prerequisites": [
+        "les-comp-cpu-memory"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-os-kernel",
+      "title": "Operating Systems, Kernel vs. User Space",
+      "module_id": "mod-comp-hardware-os",
+      "scope": "Distinguish between privileged kernel operations and safe user-space application execution.",
+      "prerequisites": [
+        "les-comp-cpu-memory"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-processes-threads",
+      "title": "Processes, Threads, and Memory Allocation",
+      "module_id": "mod-comp-hardware-os",
+      "scope": "Describe how the OS isolates process memory and schedules CPU time across threads.",
+      "prerequisites": [
+        "les-comp-os-kernel"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-filesystems-perms",
+      "title": "File Systems, Paths, and Permissions",
+      "module_id": "mod-comp-hardware-os",
+      "scope": "Navigate hierarchical file trees and interpret read/write/execute permissions.",
+      "prerequisites": [
+        "les-comp-os-kernel"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-cli-navigation",
+      "title": "Terminal Navigation",
+      "module_id": "mod-comp-cli-basics",
+      "scope": "Execute core shell commands to inspect directories and move files.",
+      "prerequisites": [
+        "les-comp-filesystems-perms"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-cli-streams-pipes",
+      "title": "Standard Streams, Redirection, and Pipes",
+      "module_id": "mod-comp-cli-basics",
+      "scope": "Chain small CLI programs together using pipes and redirect output.",
+      "prerequisites": [
+        "les-comp-cli-navigation"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-cli-processes",
+      "title": "Inspecting and Managing Running Processes",
+      "module_id": "mod-comp-cli-basics",
+      "scope": "Monitor system resource usage and safely terminate hung processes.",
+      "prerequisites": [
+        "les-comp-processes-threads",
+        "les-comp-cli-navigation"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-source-to-exec",
+      "title": "Source Code, Compilation, and Interpretation",
+      "module_id": "mod-comp-prog-models",
+      "scope": "Compare compilation, virtual machines, and interpreted runtimes.",
+      "prerequisites": [
+        "les-comp-processes-threads"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-variables-memory",
+      "title": "Variables, Primitives, and Reference Semantics",
+      "module_id": "mod-comp-prog-models",
+      "scope": "Trace how primitive values and object references are stored in memory.",
+      "prerequisites": [
+        "les-comp-source-to-exec"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-data-formats",
+      "title": "Data Serialization: JSON, YAML, and CSV",
+      "module_id": "mod-comp-prog-models",
+      "scope": "Read, write, and validate standard data interchange formats.",
+      "prerequisites": [
+        "les-comp-variables-memory"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-control-functions",
+      "title": "Control Flow, Functions, and Call Stacks",
+      "module_id": "mod-comp-prog-models",
+      "scope": "Construct conditional branches and trace execution frames.",
+      "prerequisites": [
+        "les-comp-variables-memory"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-type-systems",
+      "title": "Static vs. Dynamic Typing and Type Safety",
+      "module_id": "mod-comp-prog-models",
+      "scope": "Explain how static type checkers catch structural bugs before runtime.",
+      "prerequisites": [
+        "les-comp-control-functions"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-oop-classes",
+      "title": "Object-Oriented Programming: Classes and Instances",
+      "module_id": "mod-comp-prog-models",
+      "scope": "Design basic classes with state and behavior encapsulation.",
+      "prerequisites": [
+        "les-comp-control-functions"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-algo-thinking",
+      "title": "Algorithmic Thinking and Basic Flow Control",
+      "module_id": "mod-comp-data-modularity",
+      "scope": "Implement basic algorithmic logic and iteration.",
+      "prerequisites": [
+        "les-comp-control-functions"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-collections",
+      "title": "Arrays, Hash Maps, and Sets",
+      "module_id": "mod-comp-data-modularity",
+      "scope": "Select and manipulate appropriate in-memory data structures.",
+      "prerequisites": [
+        "les-comp-algo-thinking"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-modules-scope",
+      "title": "Lexical Scope, Closures, and Module Systems",
+      "module_id": "mod-comp-data-modularity",
+      "scope": "Organize code across multiple files while avoiding global pollution.",
+      "prerequisites": [
+        "les-comp-control-functions"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-errors-exceptions",
+      "title": "Error Handling, Exceptions, and Stack Traces",
+      "module_id": "mod-comp-data-modularity",
+      "scope": "Implement structured try/catch error recovery.",
+      "prerequisites": [
+        "les-comp-control-functions"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-comp-concurrency-async",
+      "title": "Blocking I/O, Event Loops, and Async/Await",
+      "module_id": "mod-comp-data-modularity",
+      "scope": "Contrast blocking execution with non-blocking event loops and promises.",
+      "prerequisites": [
+        "les-comp-processes-threads",
+        "les-comp-errors-exceptions"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-dev-shells-profiles",
+      "title": "Shells and Startup Profiles",
+      "module_id": "mod-dev-shell-env",
+      "scope": "Configure shell startup scripts without breaking terminals.",
+      "prerequisites": [
+        "les-comp-cli-streams-pipes"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-dev-path-env-vars",
+      "title": "PATH, .env Files, and Secret Hygiene",
+      "module_id": "mod-dev-shell-env",
+      "scope": "Diagnose command not found errors and inject configuration via environment variables.",
+      "prerequisites": [
+        "les-dev-shells-profiles"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-dev-ide-ergonomics",
+      "title": "Code Editors, Language Servers, and Debuggers",
+      "module_id": "mod-dev-shell-env",
+      "scope": "Configure an IDE with interactive breakpoint debugging.",
+      "prerequisites": [
+        "les-comp-errors-exceptions"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-dev-runtime-managers",
+      "title": "Managing Node.js and Python Runtimes",
+      "module_id": "mod-dev-runtimes-pkgs",
+      "scope": "Switch between project-specific runtime versions.",
+      "prerequisites": [
+        "les-dev-path-env-vars",
+        "les-comp-source-to-exec"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-dev-pkg-manifests",
+      "title": "Package Managers and Manifest Files",
+      "module_id": "mod-dev-runtimes-pkgs",
+      "scope": "Initialize projects and distinguish between prod/dev dependencies.",
+      "prerequisites": [
+        "les-dev-runtime-managers",
+        "les-comp-data-formats",
+        "les-comp-modules-scope"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-dev-semver-lockfiles",
+      "title": "Semantic Versioning and Lockfiles",
+      "module_id": "mod-dev-runtimes-pkgs",
+      "scope": "Explain why lockfiles guarantee deterministic installs.",
+      "prerequisites": [
+        "les-dev-pkg-manifests"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-dev-oss-licensing",
+      "title": "Open-Source Packages and Software Licenses",
+      "module_id": "mod-dev-runtimes-pkgs",
+      "scope": "Evaluate third-party packages for license compatibility.",
+      "prerequisites": [
+        "les-dev-pkg-manifests"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-dev-project-anatomy",
+      "title": "Anatomy of a Real Software Repository",
+      "module_id": "mod-dev-build-workspace",
+      "scope": "Identify the purpose of standard repository files.",
+      "prerequisites": [
+        "les-dev-pkg-manifests"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-dev-monorepo-workspaces",
+      "title": "Package Workspaces and Basic Monorepos",
+      "module_id": "mod-dev-build-workspace",
+      "scope": "Set up a basic monorepo using package manager workspaces.",
+      "prerequisites": [
+        "les-dev-semver-lockfiles"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-dev-scripts-bundlers",
+      "title": "Task Runners, Transpilers, and Bundlers",
+      "module_id": "mod-dev-build-workspace",
+      "scope": "Configure automated task scripts and code transformation.",
+      "prerequisites": [
+        "les-dev-project-anatomy",
+        "les-comp-type-systems"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-dev-local-troubleshooting",
+      "title": "Systematic Local Environment Troubleshooting",
+      "module_id": "mod-dev-build-workspace",
+      "scope": "Resolve port conflicts, permissions, and dependency issues.",
+      "prerequisites": [
+        "les-dev-scripts-bundlers",
+        "les-comp-cli-processes"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-dev-docker-basics",
+      "title": "Docker Container Basics",
+      "module_id": "mod-dev-build-workspace",
+      "scope": "Run, inspect, stop, and remove prebuilt containers.",
+      "prerequisites": [
+        "les-comp-os-kernel"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-git-mental-model",
+      "title": "Git's Snapshot Model and the .git Directory",
+      "module_id": "mod-git-local-graph",
+      "scope": "Explain how Git stores content-addressable snapshots.",
+      "prerequisites": [
+        "les-comp-filesystems-perms",
+        "les-comp-cli-navigation"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-git-staging-commits",
+      "title": "Working Tree, Staging Area, and Atomic Commits",
+      "module_id": "mod-git-local-graph",
+      "scope": "Move changes deliberately to craft atomic commits.",
+      "prerequisites": [
+        "les-git-mental-model"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-git-history-diff",
+      "title": "Inspecting History, Diffs, and Undoing Local Mistakes",
+      "module_id": "mod-git-local-graph",
+      "scope": "Inspect project evolution and safely undo local mistakes.",
+      "prerequisites": [
+        "les-git-staging-commits"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-git-branches-head",
+      "title": "Branches as Pointers and HEAD Navigation",
+      "module_id": "mod-git-remote-team",
+      "scope": "Create and switch branches conceptually as pointers.",
+      "prerequisites": [
+        "les-git-history-diff"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-git-remotes-sync",
+      "title": "Remote Repositories: Fetch, Pull, and Push",
+      "module_id": "mod-git-remote-team",
+      "scope": "Synchronize local branches with remote tracking branches.",
+      "prerequisites": [
+        "les-git-branches-head"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-git-prs-code-review",
+      "title": "Pull Requests, Code Reviews, and Issue Tracking",
+      "module_id": "mod-git-remote-team",
+      "scope": "Author Pull Requests and conduct constructive reviews.",
+      "prerequisites": [
+        "les-git-remotes-sync"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-git-merge-rebase",
+      "title": "Fast-Forward Merges, 3-Way Merges, and Rebasing",
+      "module_id": "mod-git-branch-merge",
+      "scope": "Combine divergent branches and explain rebasing trade-offs.",
+      "prerequisites": [
+        "les-git-remotes-sync"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-git-conflict-resolution",
+      "title": "Diagnosing and Resolving Merge Conflicts",
+      "module_id": "mod-git-branch-merge",
+      "scope": "Interpret conflict markers and resolve competing changes.",
+      "prerequisites": [
+        "les-git-merge-rebase"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-git-team-workflows",
+      "title": "Branching Strategies and Protected Branches",
+      "module_id": "mod-git-branch-merge",
+      "scope": "Compare Trunk-Based Development and feature branching.",
+      "prerequisites": [
+        "les-git-prs-code-review",
+        "les-git-conflict-resolution"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-net-packets-layers",
+      "title": "Networks, Packets, and the TCP/IP Layered Model",
+      "module_id": "mod-net-foundations",
+      "scope": "Trace how application data is encapsulated and routed.",
+      "prerequisites": [
+        "les-comp-os-kernel"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-net-ip-ports-nat",
+      "title": "IPv4/IPv6, Subnets, Loopback, and Ports",
+      "module_id": "mod-net-foundations",
+      "scope": "Explain how IPs identify hosts and ports identify OS processes.",
+      "prerequisites": [
+        "les-net-packets-layers",
+        "les-comp-processes-threads"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-net-dns-resolution",
+      "title": "Domain Name System (DNS) Resolution Lifecycle",
+      "module_id": "mod-net-foundations",
+      "scope": "Trace how a domain name resolves to an IP address.",
+      "prerequisites": [
+        "les-net-ip-ports-nat"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-net-tcp-udp-sockets",
+      "title": "TCP Handshakes, UDP, and OS Network Sockets",
+      "module_id": "mod-net-transport",
+      "scope": "Contrast reliable TCP streams with low-overhead UDP datagrams.",
+      "prerequisites": [
+        "les-net-ip-ports-nat"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-net-http-anatomy",
+      "title": "Anatomy of HTTP Requests and Responses",
+      "module_id": "mod-net-transport",
+      "scope": "Parse raw HTTP messages, methods, headers, and status codes.",
+      "prerequisites": [
+        "les-net-tcp-udp-sockets",
+        "les-net-dns-resolution"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-net-tls-https",
+      "title": "TLS Encryption, Certificates, and HTTPS",
+      "module_id": "mod-net-security-realtime",
+      "scope": "Explain public-key cryptography and the TLS handshake.",
+      "prerequisites": [
+        "les-net-http-anatomy"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-net-proxies-lb",
+      "title": "Forward Proxies, Reverse Proxies, and Load Balancers",
+      "module_id": "mod-net-security-realtime",
+      "scope": "Distinguish forward proxies from reverse proxies that distribute traffic.",
+      "prerequisites": [
+        "les-net-http-anatomy"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-net-websockets-sse",
+      "title": "Real-Time Protocols: WebSockets and SSE",
+      "module_id": "mod-net-security-realtime",
+      "scope": "Select the appropriate protocol for bidirectional or server-push events.",
+      "prerequisites": [
+        "les-net-http-anatomy"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-net-troubleshooting-cli",
+      "title": "Network Troubleshooting CLI Tools (curl, ping, dig)",
+      "module_id": "mod-net-security-realtime",
+      "scope": "Diagnose network failures using command-line diagnostic tools.",
+      "prerequisites": [
+        "les-net-http-anatomy",
+        "les-comp-cli-processes"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-arch-what-is-system",
+      "title": "What a Software System Is",
+      "module_id": "mod-arch-core-concepts",
+      "scope": "Deconstruct a product into UI, business logic, data, and integrations.",
+      "prerequisites": [
+        "les-comp-modules-scope"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-arch-client-server",
+      "title": "The Client-Server Model and Role Separation",
+      "module_id": "mod-arch-core-concepts",
+      "scope": "Explain why presentation clients are separated from backend servers.",
+      "prerequisites": [
+        "les-arch-what-is-system",
+        "les-net-http-anatomy"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-arch-request-lifecycle",
+      "title": "End-to-End Request and Response Lifecycle",
+      "module_id": "mod-arch-core-concepts",
+      "scope": "Trace a user action from a browser click to UI rendering.",
+      "prerequisites": [
+        "les-arch-client-server",
+        "les-net-dns-resolution"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-fe-js-syntax-types",
+      "title": "JavaScript Syntax, Types, and Operators",
+      "module_id": "mod-fe-js-foundations",
+      "scope": "Learn JS-specific variables, primitives, and logical operators.",
+      "prerequisites": [
+        "les-comp-variables-memory"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-fe-js-functions-objects",
+      "title": "JavaScript Functions, Arrays, and Objects",
+      "module_id": "mod-fe-js-foundations",
+      "scope": "Manipulate JS objects and iterate over arrays.",
+      "prerequisites": [
+        "les-fe-js-syntax-types"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-fe-js-modules",
+      "title": "JavaScript ES Modules",
+      "module_id": "mod-fe-js-foundations",
+      "scope": "Export and import code across JS files securely.",
+      "prerequisites": [
+        "les-fe-js-functions-objects"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-fe-js-async",
+      "title": "Asynchronous JavaScript: Promises and Event Loop",
+      "module_id": "mod-fe-js-foundations",
+      "scope": "Manage JS async behavior using Promises and async/await.",
+      "prerequisites": [
+        "les-fe-js-functions-objects"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-fe-html-semantics",
+      "title": "Semantic HTML Document Structure and Forms",
+      "module_id": "mod-fe-browser-core",
+      "scope": "Structure web documents using semantic HTML elements.",
+      "prerequisites": [
+        "les-arch-client-server"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-fe-css-layout-responsive",
+      "title": "CSS Box Model, Flexbox, and Responsive Design",
+      "module_id": "mod-fe-browser-core",
+      "scope": "Build adaptable layouts using CSS Flexbox and media queries.",
+      "prerequisites": [
+        "les-fe-html-semantics"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-fe-browser-rendering",
+      "title": "How Browsers Parse, Layout, Paint, and Execute Scripts",
+      "module_id": "mod-fe-browser-core",
+      "scope": "Explain how the browser constructs the DOM/CSSOM.",
+      "prerequisites": [
+        "les-fe-css-layout-responsive"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-fe-dom-events",
+      "title": "DOM Tree Manipulation and Event Delegation",
+      "module_id": "mod-fe-dom-state",
+      "scope": "Attach event listeners and mutate DOM nodes.",
+      "prerequisites": [
+        "les-fe-browser-rendering",
+        "les-fe-js-functions-objects"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-fe-fetch-async-ui",
+      "title": "APIs with Fetch, Async UI, and the Network Tab",
+      "module_id": "mod-fe-dom-state",
+      "scope": "Issue HTTP requests and manage UI loading states.",
+      "prerequisites": [
+        "les-fe-dom-events",
+        "les-fe-js-async",
+        "les-comp-data-formats"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-fe-browser-storage",
+      "title": "Browser Storage: Cookies, localStorage, sessionStorage",
+      "module_id": "mod-fe-dom-state",
+      "scope": "Compare capacity and security trade-offs of browser storage.",
+      "prerequisites": [
+        "les-fe-fetch-async-ui"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-fe-declarative-components",
+      "title": "Declarative UI Components (React)",
+      "module_id": "mod-fe-react-modern",
+      "scope": "Explain why declarative component trees eliminate DOM sync bugs.",
+      "prerequisites": [
+        "les-fe-dom-events",
+        "les-fe-fetch-async-ui",
+        "les-fe-js-modules",
+        "les-comp-collections"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-fe-props-state-lifecycle",
+      "title": "Props, Local State, Controlled Inputs, and Effects",
+      "module_id": "mod-fe-react-modern",
+      "scope": "Build interactive React components using hooks.",
+      "prerequisites": [
+        "les-fe-declarative-components"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-fe-global-state",
+      "title": "Global State Management: Context and Stores",
+      "module_id": "mod-fe-react-modern",
+      "scope": "Manage application-wide state using Context or external stores.",
+      "prerequisites": [
+        "les-fe-props-state-lifecycle"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-fe-routing-data-fetching",
+      "title": "Client-Side Routing and Server State Synchronization",
+      "module_id": "mod-fe-react-modern",
+      "scope": "Manage URL routing and cache remote API data efficiently.",
+      "prerequisites": [
+        "les-fe-props-state-lifecycle"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-fe-a11y-perf",
+      "title": "Web Accessibility (a11y) and Frontend Performance",
+      "module_id": "mod-fe-react-modern",
+      "scope": "Audit keyboard navigation, ARIA semantics, and bundle bloat.",
+      "prerequisites": [
+        "les-fe-html-semantics"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-be-server-lifecycle",
+      "title": "How an Application Server Listens and Handles Requests",
+      "module_id": "mod-be-server-routing",
+      "scope": "Write an HTTP server that binds to a port and returns responses.",
+      "prerequisites": [
+        "les-net-http-anatomy",
+        "les-dev-pkg-manifests"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-be-routing-params",
+      "title": "URL Routing, Path Parameters, and Query Strings",
+      "module_id": "mod-be-server-routing",
+      "scope": "Extract client input passed via URL paths and parameters.",
+      "prerequisites": [
+        "les-be-server-lifecycle"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-be-middleware-pipeline",
+      "title": "The Middleware Pipeline Pattern",
+      "module_id": "mod-be-server-routing",
+      "scope": "Implement composable request/response middleware and rate limiting.",
+      "prerequisites": [
+        "les-be-routing-params"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-be-controllers-services",
+      "title": "Structuring Backend Code: Controllers, Services, Repositories",
+      "module_id": "mod-be-server-routing",
+      "scope": "Refactor route handlers to keep business logic testable.",
+      "prerequisites": [
+        "les-be-middleware-pipeline",
+        "les-comp-oop-classes"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-be-rest-resources",
+      "title": "REST Principles, Resource Naming, and HTTP Status Codes",
+      "module_id": "mod-be-rest-contracts",
+      "scope": "Design predictable endpoints using noun-based URIs.",
+      "prerequisites": [
+        "les-be-controllers-services"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-be-api-clients",
+      "title": "Testing APIs with Postman / Insomnia",
+      "module_id": "mod-be-rest-contracts",
+      "scope": "Construct HTTP requests visually with headers and environments.",
+      "prerequisites": [
+        "les-be-rest-resources"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-be-validation-serialization",
+      "title": "Runtime Schema Validation and Serialization",
+      "module_id": "mod-be-rest-contracts",
+      "scope": "Validate untrusted payloads securely using strict schema validators.",
+      "prerequisites": [
+        "les-be-api-clients",
+        "les-comp-type-systems"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-be-error-handling",
+      "title": "Centralized Error Handling and Problem Details",
+      "module_id": "mod-be-rest-contracts",
+      "scope": "Catch failures in a global error handler that returns safe responses.",
+      "prerequisites": [
+        "les-be-validation-serialization",
+        "les-comp-errors-exceptions"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-be-pagination-filtering",
+      "title": "Pagination (Offset vs. Cursor), Sorting, and Filtering",
+      "module_id": "mod-be-rest-contracts",
+      "scope": "Implement scalable collection endpoints.",
+      "prerequisites": [
+        "les-be-rest-resources"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-be-graphql-grpc",
+      "title": "API Paradigms: REST vs. GraphQL vs. gRPC",
+      "module_id": "mod-be-rest-contracts",
+      "scope": "Compare REST to GraphQL and gRPC.",
+      "prerequisites": [
+        "les-be-rest-resources"
+      ],
+      "classification": "optional"
+    },
+    {
+      "id": "les-be-openapi-docs",
+      "title": "API Contracts and OpenAPI / Swagger Documentation",
+      "module_id": "mod-be-production-apis",
+      "scope": "Define machine-readable OpenAPI specifications.",
+      "prerequisites": [
+        "les-be-validation-serialization"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-be-versioning-evolution",
+      "title": "Backward Compatibility and API Versioning Strategies",
+      "module_id": "mod-be-production-apis",
+      "scope": "Evolve APIs without breaking existing clients.",
+      "prerequisites": [
+        "les-be-openapi-docs"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-be-config-env",
+      "title": "Application Configuration and Multi-Environment Setup",
+      "module_id": "mod-be-production-apis",
+      "scope": "Load and validate environment configurations on startup.",
+      "prerequisites": [
+        "les-dev-path-env-vars",
+        "les-be-server-lifecycle"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-be-webhooks-integrations",
+      "title": "Consuming Third-Party APIs and Webhooks",
+      "module_id": "mod-be-production-apis",
+      "scope": "Call external APIs resiliently and build webhook receivers.",
+      "prerequisites": [
+        "les-be-error-handling"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-db-why-databases",
+      "title": "Why File Storage Fails: Concurrency and DBMS Engines",
+      "module_id": "mod-db-relational-model",
+      "scope": "Explain the problems of concurrent file access that DBMS engines solve.",
+      "prerequisites": [
+        "les-comp-filesystems-perms",
+        "les-arch-what-is-system"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-db-postgres-vs-sqlserver",
+      "title": "Database Engines: PostgreSQL vs. SQL Server",
+      "module_id": "mod-db-relational-model",
+      "scope": "Compare engine dialects and architectures.",
+      "prerequisites": [
+        "les-db-why-databases"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-db-tables-keys-types",
+      "title": "DDL: Tables, Columns, Primary/Foreign Keys",
+      "module_id": "mod-db-relational-model",
+      "scope": "Design relational tables with columns and keys.",
+      "prerequisites": [
+        "les-db-postgres-vs-sqlserver",
+        "les-comp-data-formats"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-db-relationships-erd",
+      "title": "Modeling 1:1, 1:N, and M:N Relationships",
+      "module_id": "mod-db-relational-model",
+      "scope": "Model real-world domains using associative join tables and ERDs.",
+      "prerequisites": [
+        "les-db-tables-keys-types"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-db-normalization-constraints",
+      "title": "Normalization (1NF–3NF) and Integrity Constraints",
+      "module_id": "mod-db-relational-model",
+      "scope": "Eliminate redundant data anomalies through normalization.",
+      "prerequisites": [
+        "les-db-relationships-erd"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-db-nosql-document",
+      "title": "SQL vs. NoSQL / Document DB Trade-offs",
+      "module_id": "mod-db-relational-model",
+      "scope": "Contrast relational schemas with flexible Document databases.",
+      "prerequisites": [
+        "les-db-relationships-erd"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-db-sql-crud-filtering",
+      "title": "DML Core: SELECT, INSERT, UPDATE, DELETE, and WHERE",
+      "module_id": "mod-db-sql-querying",
+      "scope": "Write DML statements to mutate records and filter results.",
+      "prerequisites": [
+        "les-db-tables-keys-types"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-db-sql-joins",
+      "title": "Joining Tables (INNER, LEFT, RIGHT, FULL)",
+      "module_id": "mod-db-sql-querying",
+      "scope": "Combine related records across multiple tables.",
+      "prerequisites": [
+        "les-db-sql-crud-filtering",
+        "les-db-relationships-erd"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-db-sql-aggregations",
+      "title": "Aggregations, Subqueries, and CTEs",
+      "module_id": "mod-db-sql-querying",
+      "scope": "Summarize datasets using aggregate functions and CTEs.",
+      "prerequisites": [
+        "les-db-sql-joins"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-db-indexes-explain",
+      "title": "B-Tree Indexes and Reading EXPLAIN Plans",
+      "module_id": "mod-db-internals-ops",
+      "scope": "Diagnose slow scans and add targeted indexes.",
+      "prerequisites": [
+        "les-db-sql-joins",
+        "les-comp-collections"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-db-acid-transactions",
+      "title": "ACID Transactions, Isolation Levels, and Locking",
+      "module_id": "mod-db-internals-ops",
+      "scope": "Wrap writes in atomic transactions to prevent race conditions.",
+      "prerequisites": [
+        "les-db-sql-crud-filtering",
+        "les-comp-concurrency-async"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-db-connections-migrations-backups",
+      "title": "Concepts: Connection Pooling, Migrations, and Backups",
+      "module_id": "mod-db-internals-ops",
+      "scope": "Explain connection pooling, backup operations, and the concept of schema migrations.",
+      "prerequisites": [
+        "les-db-tables-keys-types",
+        "les-net-tcp-udp-sockets"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-orm-what-and-why",
+      "title": "The Object-Relational Impedance Mismatch",
+      "module_id": "mod-orm-concepts",
+      "scope": "Explain the structural gap between objects and tables.",
+      "prerequisites": [
+        "les-be-controllers-services",
+        "les-db-sql-joins"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-orm-vs-raw-sql",
+      "title": "ORMs vs. Query Builders vs. Raw SQL Trade-Offs",
+      "module_id": "mod-orm-concepts",
+      "scope": "Decide when to use high-level ORM methods vs raw SQL.",
+      "prerequisites": [
+        "les-orm-what-and-why"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-orm-backend-db-flow",
+      "title": "Connecting Backends, Drivers, and Databases",
+      "module_id": "mod-orm-concepts",
+      "scope": "Trace how an ORM compiles a method call into a query.",
+      "prerequisites": [
+        "les-orm-what-and-why",
+        "les-db-connections-migrations-backups"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-orm-prisma-schema-models",
+      "title": "Prisma Architecture, schema.prisma, and Models",
+      "module_id": "mod-orm-prisma-core",
+      "scope": "Configure a Prisma project and define data models.",
+      "prerequisites": [
+        "les-orm-backend-db-flow",
+        "les-be-config-env"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-orm-prisma-relations",
+      "title": "Defining 1:1, 1:N, and M:N Relations in Prisma",
+      "module_id": "mod-orm-prisma-core",
+      "scope": "Model foreign keys and referential actions to generate a Prisma Client.",
+      "prerequisites": [
+        "les-orm-prisma-schema-models",
+        "les-db-relationships-erd"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-orm-prisma-crud-queries",
+      "title": "Type-Safe CRUD, Filtering, and Nested Writes",
+      "module_id": "mod-orm-prisma-core",
+      "scope": "Execute nested relational queries using Prisma Client.",
+      "prerequisites": [
+        "les-orm-prisma-relations"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-orm-prisma-migrations",
+      "title": "Schema Evolution and Prisma Migrations",
+      "module_id": "mod-orm-prisma-core",
+      "scope": "Evolve database schemas safely across environments using Prisma migration CLI.",
+      "prerequisites": [
+        "les-orm-prisma-schema-models"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-orm-data-seeding",
+      "title": "Data Seeding and Repeatable Population",
+      "module_id": "mod-orm-prisma-core",
+      "scope": "Write idempotent seed scripts to populate base data.",
+      "prerequisites": [
+        "les-orm-prisma-crud-queries"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-orm-transactions-pooling",
+      "title": "Interactive Transactions and Connection Pooling",
+      "module_id": "mod-orm-perf-failures",
+      "scope": "Implement atomic multi-step operations using Prisma transactions.",
+      "prerequisites": [
+        "les-orm-prisma-crud-queries",
+        "les-db-acid-transactions"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-orm-n-plus-one-perf",
+      "title": "Detecting and Fixing N+1 Query Problems",
+      "module_id": "mod-orm-perf-failures",
+      "scope": "Identify and optimize ORM-generated N+1 cascades.",
+      "prerequisites": [
+        "les-orm-prisma-crud-queries",
+        "les-db-indexes-explain"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-orm-troubleshooting-failures",
+      "title": "Diagnosing Common ORM Connection Failures",
+      "module_id": "mod-orm-perf-failures",
+      "scope": "Fix unreachable hosts, migration drift, and constraint violations.",
+      "prerequisites": [
+        "les-orm-transactions-pooling",
+        "les-orm-prisma-migrations"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-sys-layered-hexagonal",
+      "title": "Separation of Concerns: Layered and Hexagonal Architecture",
+      "module_id": "mod-sys-design-layers",
+      "scope": "Organize code into decoupled layers (Ports & Adapters).",
+      "prerequisites": [
+        "les-be-controllers-services",
+        "les-db-relationships-erd"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-sys-monolith-modular",
+      "title": "Monoliths vs. Modular Monoliths",
+      "module_id": "mod-sys-design-layers",
+      "scope": "Design a well-structured modular monolith with strict domain boundaries.",
+      "prerequisites": [
+        "les-sys-layered-hexagonal"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-sys-microservices-tradeoffs",
+      "title": "Microservices: Benefits, Costs, and Organizational Fit",
+      "module_id": "mod-sys-design-layers",
+      "scope": "Evaluate service boundaries and when microservices solve scaling problems.",
+      "prerequisites": [
+        "les-sys-monolith-modular"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-sys-design-patterns",
+      "title": "Pragmatic Design Patterns",
+      "module_id": "mod-sys-design-layers",
+      "scope": "Apply foundational patterns to decouple business logic.",
+      "prerequisites": [
+        "les-sys-layered-hexagonal",
+        "les-comp-oop-classes"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-sys-requirements-stories",
+      "title": "Requirements, Constraints, and Acceptance Criteria",
+      "module_id": "mod-sys-workflow",
+      "scope": "Translate product ideas into testable functional requirements.",
+      "prerequisites": [
+        "les-arch-client-server"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-sys-system-diagrams",
+      "title": "Architecture Diagrams (C4 Model and Sequence Diagrams)",
+      "module_id": "mod-sys-workflow",
+      "scope": "Create clear context, container, and sequence diagrams.",
+      "prerequisites": [
+        "les-sys-requirements-stories",
+        "les-sys-layered-hexagonal"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-sys-tradeoffs-adrs",
+      "title": "Technical Debt, Design Trade-Offs, and ADRs",
+      "module_id": "mod-sys-workflow",
+      "scope": "Document engineering decisions and manage tech debt.",
+      "prerequisites": [
+        "les-sys-system-diagrams"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-sec-authn-vs-authz",
+      "title": "Threat Modeling, AuthN vs. AuthZ",
+      "module_id": "mod-sec-authn-identity",
+      "scope": "Distinguish verifying identity from enforcing access controls.",
+      "prerequisites": [
+        "les-be-middleware-pipeline"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-sec-password-hashing",
+      "title": "Password Storage: Salted Hashing (Argon2, bcrypt)",
+      "module_id": "mod-sec-authn-identity",
+      "scope": "Explain why encryption fails for passwords, and implement salted hashing.",
+      "prerequisites": [
+        "les-sec-authn-vs-authz"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-sec-sessions-vs-jwt",
+      "title": "Stateful Server Sessions vs. Stateless Tokens (JWT)",
+      "module_id": "mod-sec-authn-identity",
+      "scope": "Compare session IDs against signed JWTs.",
+      "prerequisites": [
+        "les-sec-authn-vs-authz",
+        "les-fe-browser-storage"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-sec-oauth-oidc",
+      "title": "Federated Identity: OAuth 2.0 and OpenID Connect",
+      "module_id": "mod-sec-authn-identity",
+      "scope": "Trace the Authorization Code Flow to understand delegated authentication.",
+      "prerequisites": [
+        "les-sec-sessions-vs-jwt"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-sec-rbac-abac",
+      "title": "Role-Based (RBAC) and Attribute-Based Access Control",
+      "module_id": "mod-sec-authz-access",
+      "scope": "Design schemas and middleware guards for role-based access.",
+      "prerequisites": [
+        "les-sec-sessions-vs-jwt",
+        "les-db-relationships-erd"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-sec-bola-idor",
+      "title": "Preventing Broken Object Level Authorization (BOLA / IDOR)",
+      "module_id": "mod-sec-authz-access",
+      "scope": "Audit APIs to ensure users cannot manipulate IDs to access unauthorized records.",
+      "prerequisites": [
+        "les-sec-rbac-abac"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-sec-injection-sqli",
+      "title": "Injection Attacks: SQLi and Command Injection",
+      "module_id": "mod-sec-web-vulns-ops",
+      "scope": "Defend against string concatenation vulnerabilities.",
+      "prerequisites": [
+        "les-db-sql-crud-filtering"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-sec-xss-csrf-cors",
+      "title": "Cross-Site Scripting (XSS), CSRF, and Security Headers",
+      "module_id": "mod-sec-web-vulns-ops",
+      "scope": "Defend browsers against script injection and forged requests.",
+      "prerequisites": [
+        "les-fe-dom-events",
+        "les-sec-sessions-vs-jwt"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-sec-secrets-least-privilege",
+      "title": "Secret Management and Least Privilege",
+      "module_id": "mod-sec-web-vulns-ops",
+      "scope": "Keep API keys out of Git history and scope permissions strictly.",
+      "prerequisites": [
+        "les-dev-path-env-vars",
+        "les-git-history-diff"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-test-why-and-pyramid",
+      "title": "Why We Test: Confidence, Regressions, and the Test Pyramid",
+      "module_id": "mod-test-strategy-pyramid",
+      "scope": "Balance unit, integration, and E2E tests based on risk.",
+      "prerequisites": [
+        "les-sys-layered-hexagonal"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-test-tdd-red-green-refactor",
+      "title": "Test-Driven Development (TDD) Concept",
+      "module_id": "mod-test-strategy-pyramid",
+      "scope": "Apply the Red-Green-Refactor cycle and understand its limitations.",
+      "prerequisites": [
+        "les-test-why-and-pyramid"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-test-unit-assertions",
+      "title": "Writing Deterministic Unit Tests",
+      "module_id": "mod-test-strategy-pyramid",
+      "scope": "Write isolated tests for boundary conditions using the AAA pattern.",
+      "prerequisites": [
+        "les-test-tdd-red-green-refactor",
+        "les-comp-errors-exceptions"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-test-doubles-mocking",
+      "title": "Test Doubles: Stubs, Spies, and Mocks",
+      "module_id": "mod-test-strategy-pyramid",
+      "scope": "Isolate external side effects using test doubles.",
+      "prerequisites": [
+        "les-test-unit-assertions"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-test-api-db-integration",
+      "title": "API and Database Integration Testing",
+      "module_id": "mod-test-integration-e2e",
+      "scope": "Test HTTP endpoints against a real isolated test database using fixtures.",
+      "prerequisites": [
+        "les-be-api-clients",
+        "les-db-acid-transactions",
+        "les-db-connections-migrations-backups"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-test-e2e-browser",
+      "title": "End-to-End (E2E) Browser Testing",
+      "module_id": "mod-test-integration-e2e",
+      "scope": "Automate critical user journeys in a headless browser.",
+      "prerequisites": [
+        "les-test-api-db-integration",
+        "les-fe-routing-data-fetching"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-test-scientific-debugging",
+      "title": "Scientific Debugging and Root-Cause Diagnosis",
+      "module_id": "mod-test-debug-quality",
+      "scope": "Formulate hypotheses and binary-search failure boundaries.",
+      "prerequisites": [
+        "les-dev-ide-ergonomics",
+        "les-git-history-diff"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-test-linters-formatters",
+      "title": "Static Analysis: Formatters and Linters",
+      "module_id": "mod-test-debug-quality",
+      "scope": "Automate code style consistency and defect detection.",
+      "prerequisites": [
+        "les-dev-scripts-bundlers"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-deploy-linux-ssh",
+      "title": "Remote Linux Servers, SSH, and systemd",
+      "module_id": "mod-deploy-linux-containers",
+      "scope": "Securely connect to Linux servers and manage background processes.",
+      "prerequisites": [
+        "les-comp-cli-processes",
+        "les-net-ip-ports-nat"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-deploy-dockerfiles-images",
+      "title": "Dockerfiles, Multi-Stage Builds, and Image Security",
+      "module_id": "mod-deploy-linux-containers",
+      "scope": "Package applications optimally using multi-stage builds.",
+      "prerequisites": [
+        "les-dev-docker-basics"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-deploy-compose-volumes",
+      "title": "Docker Compose, Networking, and Persistent Volumes",
+      "module_id": "mod-deploy-linux-containers",
+      "scope": "Orchestrate multi-container stacks locally.",
+      "prerequisites": [
+        "les-deploy-dockerfiles-images"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-deploy-nginx-tls",
+      "title": "Reverse Proxies (Nginx) and Automated TLS",
+      "module_id": "mod-deploy-web-cicd",
+      "scope": "Route public HTTPS traffic to internal containers.",
+      "prerequisites": [
+        "les-deploy-compose-volumes",
+        "les-net-tls-https"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-deploy-cicd-github-actions",
+      "title": "CI/CD Pipelines and Automated Checks",
+      "module_id": "mod-deploy-web-cicd",
+      "scope": "Automate testing and container builds on pull requests.",
+      "prerequisites": [
+        "les-git-prs-code-review",
+        "les-test-unit-assertions"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-deploy-env-releases",
+      "title": "Environment Separation, Health Checks, and Rollbacks",
+      "module_id": "mod-deploy-web-cicd",
+      "scope": "Manage staging environments, verify releases, and perform rollbacks.",
+      "prerequisites": [
+        "les-deploy-nginx-tls",
+        "les-git-team-workflows"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-deploy-cloud-primitives",
+      "title": "Cloud Paradigms: IaaS, PaaS, Serverless, and Regions",
+      "module_id": "mod-deploy-cloud-aws",
+      "scope": "Understand vendor-neutral cloud concepts and regions.",
+      "prerequisites": [],
+      "classification": "core"
+    },
+    {
+      "id": "les-deploy-aws-ec2-s3-rds",
+      "title": "Practical AWS: EC2, S3, RDS, and IAM",
+      "module_id": "mod-deploy-cloud-aws",
+      "scope": "Map generic cloud primitives to practical AWS resources.",
+      "prerequisites": [
+        "les-deploy-cloud-primitives",
+        "les-deploy-linux-ssh"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-deploy-cloud-cost",
+      "title": "Cloud Economics and Cost Awareness",
+      "module_id": "mod-deploy-cloud-aws",
+      "scope": "Prevent billing spikes by understanding instance pricing and egress.",
+      "prerequisites": [
+        "les-deploy-aws-ec2-s3-rds"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-ops-structured-logging",
+      "title": "Structured Logging, Log Levels, and Correlation IDs",
+      "module_id": "mod-ops-observability",
+      "scope": "Emit JSON logs enriched with request correlation IDs.",
+      "prerequisites": [
+        "les-be-middleware-pipeline"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-ops-metrics-dashboards",
+      "title": "Metrics and the Four Golden Signals",
+      "module_id": "mod-ops-observability",
+      "scope": "Track latency, traffic rate, error rate, and saturation.",
+      "prerequisites": [
+        "les-be-middleware-pipeline"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-ops-tracing-alerting",
+      "title": "Distributed Tracing and Actionable Alerting",
+      "module_id": "mod-ops-observability",
+      "scope": "Trace requests across boundaries and design symptom-based alerts.",
+      "prerequisites": [
+        "les-ops-metrics-dashboards"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-ops-slis-slos-availability",
+      "title": "Availability, SLIs, SLOs, and SLAs",
+      "module_id": "mod-ops-reliability",
+      "scope": "Define quantifiable Service Level Objectives.",
+      "prerequisites": [
+        "les-ops-metrics-dashboards"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-ops-profiling-bottlenecks",
+      "title": "Performance Profiling (CPU, Memory, I/O, DB)",
+      "module_id": "mod-ops-reliability",
+      "scope": "Locate system bottlenecks using telemetry and flame graphs.",
+      "prerequisites": [
+        "les-ops-slis-slos-availability"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-ops-incident-response",
+      "title": "Incident Triage, Mitigation, and Postmortems",
+      "module_id": "mod-ops-incident-maint",
+      "scope": "Lead structured incident mitigation and blameless analysis.",
+      "prerequisites": [],
+      "classification": "core"
+    },
+    {
+      "id": "les-ops-dr-backups",
+      "title": "Disaster Recovery: RPO, RTO, Failover, and Restore Drills",
+      "module_id": "mod-ops-incident-maint",
+      "scope": "Design and test backup restoration procedures.",
+      "prerequisites": [
+        "les-ops-incident-response",
+        "les-db-connections-migrations-backups"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-ops-maintenance-drift",
+      "title": "Operational Maintenance and Config Drift",
+      "module_id": "mod-ops-incident-maint",
+      "scope": "Manage dependency upgrades and configuration drift.",
+      "prerequisites": [
+        "les-deploy-cicd-github-actions"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-dist-caching-redis",
+      "title": "Caching Strategies with Redis",
+      "module_id": "mod-dist-cache-queues",
+      "scope": "Reduce database load using Redis in-memory caching.",
+      "prerequisites": [
+        "les-db-indexes-explain"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-dist-async-queues",
+      "title": "Background Jobs, Task Queues, and Worker Processes",
+      "module_id": "mod-dist-cache-queues",
+      "scope": "Offload slow operations to background workers.",
+      "prerequisites": [
+        "les-be-server-lifecycle"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-dist-retries-idempotency",
+      "title": "Retries, Dead-Letter Queues, and Idempotency Keys",
+      "module_id": "mod-dist-cache-queues",
+      "scope": "Handle transient failures safely using backoff and idempotency.",
+      "prerequisites": [
+        "les-dist-async-queues",
+        "les-db-acid-transactions"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-dist-pubsub-kafka",
+      "title": "Event-Driven Architecture and Kafka",
+      "module_id": "mod-dist-streams",
+      "scope": "Contrast point-to-point queues with partitioned event logs.",
+      "prerequisites": [
+        "les-dist-retries-idempotency",
+        "les-sys-microservices-tradeoffs"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-dist-replication-cap",
+      "title": "Database Replication, Sharding, and CAP Theorem",
+      "module_id": "mod-dist-streams",
+      "scope": "Explain replication lag and strong vs eventual consistency.",
+      "prerequisites": [
+        "les-db-acid-transactions"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-dist-failure-patterns",
+      "title": "Distributed Failures: Circuit Breakers and Sagas",
+      "module_id": "mod-dist-streams",
+      "scope": "Protect services using circuit breakers and the Saga pattern.",
+      "prerequisites": [
+        "les-dist-replication-cap",
+        "les-ops-tracing-alerting"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-data-python-pandas",
+      "title": "Python Data Processing and Pandas",
+      "module_id": "mod-data-eng-core",
+      "scope": "Basic data manipulation using Python and Pandas DataFrames.",
+      "prerequisites": [
+        "les-comp-algo-thinking",
+        "les-comp-collections"
+      ],
+      "classification": "core"
+    },
+    {
+      "id": "les-data-oltp-vs-olap",
+      "title": "Data Warehouses, Data Lakes, and Lakehouses",
+      "module_id": "mod-data-eng-core",
+      "scope": "Differences among data warehouses, data lakes, and lakehouses, contrasting analytical (OLAP) workflows with operational (OLTP) databases.",
+      "prerequisites": [
+        "les-db-sql-aggregations"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-data-ingestion-etl-elt",
+      "title": "Batch vs. Streaming, and ETL vs. ELT Pipelines",
+      "module_id": "mod-data-eng-core",
+      "scope": "Design ingestion pipelines (batch vs. streaming, ETL vs. ELT) and process columnar data formats like Parquet.",
+      "prerequisites": [
+        "les-data-oltp-vs-olap"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-data-modeling-analytics",
+      "title": "Dimensional Data Modeling (Star Schema)",
+      "module_id": "mod-data-eng-core",
+      "scope": "Model analytical datasets using facts and dimensions.",
+      "prerequisites": [
+        "les-data-ingestion-etl-elt",
+        "les-db-relationships-erd"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-data-quality-drift",
+      "title": "Data Quality, Invalid Records, and Schema Drift",
+      "module_id": "mod-data-eng-core",
+      "scope": "Handle nulls, duplicates, bad records, and structural drift.",
+      "prerequisites": [
+        "les-data-modeling-analytics"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-data-incremental-pipelines",
+      "title": "Incremental Pipelines and Safe Reruns",
+      "module_id": "mod-data-eng-scale",
+      "scope": "Process incremental batches, handle late-arriving data, implement safe backfills, pipeline logging, retries, and recovery.",
+      "prerequisites": [
+        "les-data-ingestion-etl-elt"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-data-orchestration-airflow",
+      "title": "Workflow Orchestration (Airflow Concepts)",
+      "module_id": "mod-data-eng-scale",
+      "scope": "Schedule and monitor DAG-based data pipelines.",
+      "prerequisites": [
+        "les-data-incremental-pipelines"
+      ],
+      "classification": "advanced"
+    },
+    {
+      "id": "les-data-big-data-spark",
+      "title": "Large-Scale Processing: Parquet and Spark",
+      "module_id": "mod-data-eng-scale",
+      "scope": "Process large datasets using columnar formats and distributed dataframe engines.",
+      "prerequisites": [
+        "les-data-orchestration-airflow",
+        "les-data-python-pandas"
+      ],
+      "classification": "optional"
+    },
+    {
+      "id": "les-spec-ai-llm-apis",
+      "title": "Integrating LLM APIs and Structured Outputs",
+      "module_id": "mod-spec-ai",
+      "scope": "Integrate foundation models using schema-enforced outputs.",
+      "prerequisites": [
+        "les-be-rest-resources"
+      ],
+      "classification": "optional"
+    },
+    {
+      "id": "les-spec-ai-embeddings-rag",
+      "title": "Embeddings, Vector Databases, and RAG",
+      "module_id": "mod-spec-ai",
+      "scope": "Build semantic search using chunking and vector embeddings.",
+      "prerequisites": [
+        "les-spec-ai-llm-apis",
+        "les-comp-collections"
+      ],
+      "classification": "optional"
+    },
+    {
+      "id": "les-spec-ai-evals-agents",
+      "title": "AI Agents, Tool Calling, and Evals",
+      "module_id": "mod-spec-ai",
+      "scope": "Implement tool-calling guards and evaluate LLM outputs.",
+      "prerequisites": [
+        "les-spec-ai-llm-apis"
+      ],
+      "classification": "optional"
+    },
+    {
+      "id": "les-spec-mobile-lifecycle",
+      "title": "Mobile App Architecture and Native vs. Cross-Platform",
+      "module_id": "mod-spec-mobile",
+      "scope": "Contrast mobile execution constraints with web browsers.",
+      "prerequisites": [
+        "les-fe-routing-data-fetching"
+      ],
+      "classification": "optional"
+    },
+    {
+      "id": "les-spec-mobile-offline-push",
+      "title": "Offline-First Sync, Push, and Versioning",
+      "module_id": "mod-spec-mobile",
+      "scope": "Design resilient mobile clients with local sync and push gateways.",
+      "prerequisites": [
+        "les-spec-mobile-lifecycle",
+        "les-be-versioning-evolution"
+      ],
+      "classification": "optional"
+    },
+    {
+      "id": "les-spec-iac-terraform",
+      "title": "Declarative Infrastructure as Code (Terraform)",
+      "module_id": "mod-spec-iac-k8s",
+      "scope": "Provision reproducible cloud networks declaratively.",
+      "prerequisites": [
+        "les-deploy-aws-ec2-s3-rds"
+      ],
+      "classification": "optional"
+    },
+    {
+      "id": "les-spec-k8s-orchestration",
+      "title": "Container Orchestration: Kubernetes Architecture",
+      "module_id": "mod-spec-iac-k8s",
+      "scope": "Explain how Kubernetes schedules pods and routes traffic.",
+      "prerequisites": [
+        "les-deploy-dockerfiles-images",
+        "les-net-proxies-lb"
+      ],
+      "classification": "optional"
+    }
+  ]
+}

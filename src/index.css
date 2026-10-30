@@ -1,0 +1,256 @@
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/fraunces/full.css";
+@import "@fontsource-variable/fraunces/full-italic.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply min-h-screen bg-cream-200 font-sans text-ink;
+    background-image:
+      radial-gradient(at 0% 0%, rgba(255, 252, 244, 0.65) 0, transparent 42%),
+      radial-gradient(at 100% 0%, rgba(239, 229, 208, 0.5) 0, transparent 45%);
+  }
+
+  ::selection {
+    background: #c9d6bd;
+    color: #152b21;
+  }
+
+  :focus-visible {
+    outline: 2px solid #bb5f3b;
+    outline-offset: 2px;
+  }
+
+  button,
+  a,
+  input {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer components {
+  .display-title {
+    font-family: "Fraunces Variable", Fraunces, Georgia, serif;
+    font-variation-settings: "SOFT" 60, "WONK" 1, "opsz" 72;
+    font-weight: 550;
+    letter-spacing: -0.015em;
+  }
+
+  .panel {
+    @apply rounded-2xl border border-sand/90 bg-cream-50 shadow-card;
+  }
+
+  .icon-btn {
+    @apply inline-flex h-10 w-10 items-center justify-center rounded-full text-forest-900 transition-colors hover:bg-cream-300/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rust-400/70;
+  }
+
+  .text-eyebrow {
+    @apply text-[11px] font-medium uppercase tracking-[0.16em] text-muted;
+  }
+
+  .paper-texture {
+    background-image:
+      radial-gradient(rgba(29, 58, 46, 0.035) 0.6px, transparent 0.6px),
+      radial-gradient(rgba(187, 95, 59, 0.025) 0.6px, transparent 0.6px);
+    background-size:
+      9px 9px,
+      13px 13px;
+    background-position:
+      0 0,
+      4px 5px;
+  }
+
+  /* Lesson and solution Markdown, kept close to the dashboard's type scale. */
+  .lesson-prose {
+    @apply text-[13.5px] leading-[1.75] text-[#4a594c];
+  }
+
+  .lesson-prose > :first-child {
+    @apply mt-0;
+  }
+
+  .lesson-prose > :last-child {
+    @apply mb-0;
+  }
+
+  .lesson-prose h1,
+  .lesson-prose h2,
+  .lesson-prose h3,
+  .lesson-prose h4 {
+    @apply font-display font-semibold text-forest-950;
+  }
+
+  .lesson-prose h1 {
+    @apply mb-3 mt-7 text-[24px] leading-tight;
+  }
+
+  .lesson-prose h2 {
+    @apply mb-2.5 mt-7 text-[19px] leading-snug;
+  }
+
+  .lesson-prose h3 {
+    @apply mb-2 mt-6 text-[15.5px] leading-snug;
+  }
+
+  .lesson-prose h4 {
+    @apply mb-1.5 mt-5 text-[13.5px] leading-snug;
+  }
+
+  .lesson-prose p {
+    @apply mb-3.5;
+  }
+
+  .lesson-prose strong {
+    @apply font-semibold text-forest-900;
+  }
+
+  .lesson-prose em {
+    @apply italic;
+  }
+
+  .lesson-prose a {
+    @apply font-medium text-rust-600 underline decoration-rust-300/70 underline-offset-2 transition-colors hover:text-rust-700;
+  }
+
+  .lesson-prose ul,
+  .lesson-prose ol {
+    @apply mb-3.5 space-y-1.5 pl-5;
+  }
+
+  .lesson-prose ul {
+    @apply list-disc;
+  }
+
+  .lesson-prose ol {
+    @apply list-decimal;
+  }
+
+  .lesson-prose li > ul,
+  .lesson-prose li > ol {
+    @apply mb-0 mt-1.5;
+  }
+
+  .lesson-prose li::marker {
+    @apply text-forest-500;
+  }
+
+  .lesson-prose blockquote {
+    @apply my-4 rounded-r-lg border-l-[3px] border-forest-400/70 bg-cream-100/70 px-4 py-2.5 text-[12.5px] italic text-[#5c6a5c];
+  }
+
+  .lesson-prose blockquote > :last-child {
+    @apply mb-0;
+  }
+
+  .lesson-prose code {
+    @apply rounded bg-[#eee8da] px-1 py-[1px] font-mono text-[11.5px] text-[#6b4d38];
+  }
+
+  .lesson-prose pre {
+    @apply my-4 overflow-x-auto rounded-xl border border-[#2b4b39] bg-[#20382c] px-4 py-3.5 text-[11.5px] leading-relaxed text-cream-100 scrollbar-subtle;
+  }
+
+  .lesson-prose pre code {
+    @apply block bg-transparent p-0 font-mono text-[11.5px] text-cream-100;
+  }
+
+  .lesson-prose hr {
+    @apply my-6 border-sand;
+  }
+
+  .lesson-prose table {
+    @apply my-4 w-full border-collapse overflow-hidden rounded-lg text-left text-[11.5px];
+  }
+
+  .lesson-prose th {
+    @apply border border-sand bg-cream-200/80 px-2.5 py-1.5 font-semibold text-forest-900;
+  }
+
+  .lesson-prose td {
+    @apply border border-sand/80 bg-cream-50 px-2.5 py-1.5 align-top;
+  }
+
+  .lesson-prose img {
+    @apply my-4 max-w-full rounded-lg border border-sand;
+  }
+
+  .lesson-prose input[type="checkbox"] {
+    @apply mr-1.5 accent-forest-800;
+  }
+
+  .lesson-prose-compact {
+    @apply text-[12.5px] leading-relaxed;
+  }
+
+  .lesson-prose-compact p {
+    @apply mb-1.5;
+  }
+
+  .lesson-prose-compact h1,
+  .lesson-prose-compact h2,
+  .lesson-prose-compact h3,
+  .lesson-prose-compact h4 {
+    @apply mb-1 mt-2 text-[13px];
+  }
+
+  .lesson-prose-compact ul,
+  .lesson-prose-compact ol {
+    @apply mb-1.5 space-y-1 pl-4;
+  }
+
+  .lesson-prose-compact pre {
+    @apply my-2 py-2;
+  }
+}
+
+@layer utilities {
+  .scrollbar-subtle {
+    scrollbar-width: thin;
+    scrollbar-color: #cfc4ad transparent;
+  }
+
+  .scrollbar-subtle::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .scrollbar-subtle::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    background: #cfc4ad;
+  }
+
+  .animate-delay-1 {
+    animation-delay: 40ms;
+  }
+
+  .animate-delay-2 {
+    animation-delay: 80ms;
+  }
+
+  .animate-delay-3 {
+    animation-delay: 120ms;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

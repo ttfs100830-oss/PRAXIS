@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-filesystems-perms",
+  "title": "File Systems, Paths, and Permissions",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-filesystems-perms-q1",
+      "type": "multiple_choice",
+      "prompt": "On a POSIX directory, what does execute (x) permission allow?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Listing names only"
+        },
+        {
+          "id": "b",
+          "text": "Searching/traversing the directory"
+        },
+        {
+          "id": "c",
+          "text": "Changing file contents"
+        },
+        {
+          "id": "d",
+          "text": "Changing owner"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Directory execute permission means search/traverse permission.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-filesystems-perms-q2",
+      "type": "multiple_choice",
+      "prompt": "What does `chmod u+x script.sh` do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Removes all permissions"
+        },
+        {
+          "id": "b",
+          "text": "Adds execute permission for the owner"
+        },
+        {
+          "id": "c",
+          "text": "Makes the file public"
+        },
+        {
+          "id": "d",
+          "text": "Changes the file owner"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "`u` refers to owner and `+x` adds execute permission.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-filesystems-perms-q3",
+      "type": "scenario",
+      "prompt": "A file is readable, but a parent directory lacks search permission. Why might opening the file fail?",
+      "expected_answer": "Access requires search permission on relevant directories in the path, not just read permission on the file.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests path-level permissions.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-filesystems-perms-q4",
+      "type": "short_answer",
+      "prompt": "What is an inode on common Unix-like filesystems?",
+      "expected_answer": "Exact filesystem implementation varies, but names and file metadata are conceptually distinct.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests filesystem concepts.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-filesystems-perms-q5",
+      "type": "short_answer",
+      "prompt": "What does umask affect?",
+      "expected_answer": "It masks requested default permissions for newly created objects; it does not retroactively change existing files.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Checks practical permission behavior.",
+      "points": 1
+    }
+  ]
+}

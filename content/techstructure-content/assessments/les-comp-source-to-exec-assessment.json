@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-source-to-exec",
+  "title": "Source Code, Compilation, and Interpretation",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-source-to-exec-q1",
+      "type": "multiple_choice",
+      "prompt": "Which statement best describes modern language execution?",
+      "options": [
+        {
+          "id": "a",
+          "text": "All languages are purely interpreted"
+        },
+        {
+          "id": "b",
+          "text": "All languages compile directly to native code"
+        },
+        {
+          "id": "c",
+          "text": "Execution may involve multiple stages such as compilation, bytecode, and runtime interpretation/JIT"
+        },
+        {
+          "id": "d",
+          "text": "Source runs without a runtime"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Real implementations can combine compilation and interpretation/JIT stages.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-source-to-exec-q2",
+      "type": "multiple_choice",
+      "prompt": "What is a typical Go distribution advantage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Go program never has dependencies"
+        },
+        {
+          "id": "b",
+          "text": "It can often be distributed as a native executable for a target platform"
+        },
+        {
+          "id": "c",
+          "text": "It runs only in a browser"
+        },
+        {
+          "id": "d",
+          "text": "It requires Python bytecode"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A compiled Go binary can often simplify deployment, subject to platform and linking constraints.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-source-to-exec-q3",
+      "type": "short_answer",
+      "prompt": "Distinguish source code, bytecode, and native machine code.",
+      "expected_answer": "Should explain the representations and their role in execution.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests core concepts.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-source-to-exec-q4",
+      "type": "scenario",
+      "prompt": "Why might a Python app need its interpreter and dependencies on the destination machine?",
+      "expected_answer": "Deployment must account for runtime, dependencies, OS, and architecture.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Practical deployment reasoning.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-source-to-exec-q5",
+      "type": "short_answer",
+      "prompt": "Why is “Python is interpreted, Go is compiled” an oversimplification?",
+      "expected_answer": "A nuanced answer notes implementation differences.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Checks conceptual accuracy.",
+      "points": 1
+    }
+  ]
+}

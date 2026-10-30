@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-modules-scope",
+  "title": "Lexical Scope, Closures, and Module Systems",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-modules-scope-q1",
+      "type": "multiple_choice",
+      "prompt": "What does LEGB stand for in Python name lookup?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Local, Enclosing, Global, Built-in"
+        },
+        {
+          "id": "b",
+          "text": "List, Entry, Group, Base"
+        },
+        {
+          "id": "c",
+          "text": "Load, Execute, Generate, Build"
+        },
+        {
+          "id": "d",
+          "text": "Local, External, General, Branch"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "LEGB describes common Python name lookup order.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-modules-scope-q2",
+      "type": "multiple_choice",
+      "prompt": "Does a leading underscore make a Python function truly private?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes, enforced by runtime"
+        },
+        {
+          "id": "b",
+          "text": "No, it is a convention"
+        },
+        {
+          "id": "c",
+          "text": "Only in packages"
+        },
+        {
+          "id": "d",
+          "text": "It deletes the function"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The underscore communicates internal use; it is not strict access control.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-modules-scope-q3",
+      "type": "short_answer",
+      "prompt": "What is a closure?",
+      "expected_answer": "Closures can preserve needed state after the outer function returns.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests scope.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-modules-scope-q4",
+      "type": "scenario",
+      "prompt": "Why use explicit imports rather than adding many names to global scope?",
+      "expected_answer": "Clear module boundaries improve organization.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests modularity.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-modules-scope-q5",
+      "type": "practical",
+      "prompt": "Show the syntax for exporting `normalizeName` from one ES module and importing it into another.",
+      "expected_answer": "Correct named export/import syntax and a valid relative module path.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Practical evaluation.",
+      "points": 2
+    }
+  ]
+}

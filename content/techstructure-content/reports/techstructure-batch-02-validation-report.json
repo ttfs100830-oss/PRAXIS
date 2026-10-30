@@ -1,0 +1,27 @@
+{
+  "batch": "batch-02",
+  "lesson_count": 48,
+  "assessment_count": 48,
+  "solution_count": 48,
+  "path_ids": [
+    "path-dev-toolchain",
+    "path-git-collab",
+    "path-net-comms",
+    "path-web-arch",
+    "path-web-frontend"
+  ],
+  "checks": {
+    "manifest_bytes_identical_to_source": true,
+    "lesson_ids_match_manifest": true,
+    "all_paths_exist": true,
+    "all_assessment_json_parse": true,
+    "each_assessment_has_five_questions": true,
+    "complete_paths_only": true
+  },
+  "limitations": [
+    "Python syntax check is not applicable to the majority of these lessons; examples are conceptual and command-based.",
+    "The generic short-answer/practical grading rubrics are intentionally flexible; human review of technical depth and assessment discrimination remains recommended.",
+    "No external services, commands, or browser examples were executed in a live environment.",
+    "The source manifest is copied byte-for-byte from the Batch 1 source package; no separate trusted baseline was available for comparison."
+  ]
+}

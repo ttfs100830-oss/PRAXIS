@@ -1,0 +1,101 @@
+{
+  "lesson_id": "les-git-branches-head",
+  "title": "Branches as Pointers and HEAD Navigation",
+  "assessment_version": 1,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. Short-answer and practical items accept equivalent technically correct wording. Practical responses are graded using the supplied guidance.",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": "Which statement best matches this lesson’s central idea: Branches as Pointers and HEAD Navigation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The topic is only about changing visual appearance and has no effect on software behavior."
+        },
+        {
+          "id": "b",
+          "text": "The topic removes the need to test, inspect, or verify a change."
+        },
+        {
+          "id": "c",
+          "text": "A branch is a named pointer to a commit."
+        },
+        {
+          "id": "d",
+          "text": "The topic guarantees every implementation will behave identically in every environment."
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The lesson’s core concept describes the relevant mechanism and its practical role; the other options make unsupported absolute claims.",
+      "id": "les-git-branches-head-q1",
+      "points": 1
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What is the safest first step when applying the lesson in a real project?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inspect the current state, reproduce or define the expected behavior, and change one thing at a time."
+        },
+        {
+          "id": "b",
+          "text": "Make several unrelated changes at once."
+        },
+        {
+          "id": "c",
+          "text": "Delete configuration and reinstall every tool immediately."
+        },
+        {
+          "id": "d",
+          "text": "Ignore errors if the UI appears to work."
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Controlled changes and observable evidence make failures easier to diagnose and fixes easier to validate.",
+      "id": "les-git-branches-head-q2",
+      "points": 1
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which risk or limitation is specifically worth remembering for Branches as Pointers and HEAD Navigation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "There are no meaningful limitations."
+        },
+        {
+          "id": "b",
+          "text": "The same command or configuration always works identically on every operating system."
+        },
+        {
+          "id": "c",
+          "text": "Do not confuse switching branches with copying a separate repository."
+        },
+        {
+          "id": "d",
+          "text": "A successful first run proves the system is secure and correct."
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "This limitation is called out in the lesson; platform differences and unverified assumptions should not be ignored.",
+      "id": "les-git-branches-head-q3",
+      "points": 1
+    },
+    {
+      "type": "short_answer",
+      "prompt": "In 2–4 sentences, explain how the concept in “Branches as Pointers and HEAD Navigation” helps achieve this goal: Create and switch branches conceptually as pointers.",
+      "expected_answer_guidance": "A correct response explains the mechanism in the lesson and connects it to the stated learning goal. Equivalent technically correct wording is acceptable.",
+      "points": 2,
+      "id": "les-git-branches-head-q4"
+    },
+    {
+      "type": "practical",
+      "prompt": "Complete a small practice task for “Branches as Pointers and HEAD Navigation”. State what you changed or inspected, the expected result, the actual result, and one limitation.",
+      "expected_answer_guidance": "Award credit for a relevant artifact or reproducible steps, a clear expected-versus-actual comparison, and a technically sound explanation of a limitation. Accept different valid environments and implementations.",
+      "points": 3,
+      "id": "les-git-branches-head-q5"
+    }
+  ]
+}

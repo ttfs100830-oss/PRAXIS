@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-algo-thinking",
+  "title": "Algorithmic Thinking and Basic Flow Control",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-algo-thinking-q1",
+      "type": "multiple_choice",
+      "prompt": "What is the worst-case time complexity of linear search through n items?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O(1)"
+        },
+        {
+          "id": "b",
+          "text": "O(log n)"
+        },
+        {
+          "id": "c",
+          "text": "O(n)"
+        },
+        {
+          "id": "d",
+          "text": "O(n²)"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "It may inspect every item.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-algo-thinking-q2",
+      "type": "multiple_choice",
+      "prompt": "What is an algorithm invariant?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A property intended to remain true at a particular point/through loop iterations"
+        },
+        {
+          "id": "b",
+          "text": "A variable name"
+        },
+        {
+          "id": "c",
+          "text": "A syntax error"
+        },
+        {
+          "id": "d",
+          "text": "A file extension"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Invariants support reasoning about correctness.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-algo-thinking-q3",
+      "type": "short_answer",
+      "prompt": "List edge cases for a function searching a list.",
+      "expected_answer": "A good test set covers boundaries and representative outcomes.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests algorithmic reasoning.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-algo-thinking-q4",
+      "type": "scenario",
+      "prompt": "Why clarify the required output before writing an algorithm?",
+      "expected_answer": "Requirements drive algorithm design and test cases.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests problem decomposition.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-algo-thinking-q5",
+      "type": "practical",
+      "prompt": "Describe an algorithm to count items greater than threshold t.",
+      "expected_answer": "Should handle empty lists and strict greater-than semantics.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Practical evaluation.",
+      "points": 2
+    }
+  ]
+}

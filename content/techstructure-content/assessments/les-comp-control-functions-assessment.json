@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-control-functions",
+  "title": "Control Flow, Functions, and Call Stacks",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-control-functions-q1",
+      "type": "multiple_choice",
+      "prompt": "What does `return` do inside a function?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prints automatically"
+        },
+        {
+          "id": "b",
+          "text": "Sends a value back and ends that function call"
+        },
+        {
+          "id": "c",
+          "text": "Repeats the loop"
+        },
+        {
+          "id": "d",
+          "text": "Imports a module"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Return supplies the caller with a result and exits the function.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-control-functions-q2",
+      "type": "multiple_choice",
+      "prompt": "Which is closest to a pure function?",
+      "options": [
+        {
+          "id": "a",
+          "text": "One that reads/writes a file"
+        },
+        {
+          "id": "b",
+          "text": "One whose output depends only on inputs and has no observable side effects"
+        },
+        {
+          "id": "c",
+          "text": "One that always raises"
+        },
+        {
+          "id": "d",
+          "text": "One using global mutable state"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Purity means deterministic dependence on inputs without observable side effects.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-control-functions-q3",
+      "type": "short_answer",
+      "prompt": "What is an execution/call frame?",
+      "expected_answer": "A call stack tracks active calls/frames.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests function execution model.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-control-functions-q4",
+      "type": "scenario",
+      "prompt": "A function divides by a parameter. What input validation or behavior should be considered?",
+      "expected_answer": "Good answers make edge-case behavior explicit and testable.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests defensive function design.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-control-functions-q5",
+      "type": "practical",
+      "prompt": "Write pseudocode for returning the largest non-negative number in a list, or None if none exists.",
+      "expected_answer": "Must handle empty lists and negative-only input.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Practical evaluation.",
+      "points": 2
+    }
+  ]
+}

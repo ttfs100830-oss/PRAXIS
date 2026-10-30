@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-collections",
+  "title": "Arrays, Hash Maps, and Sets",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-collections-q1",
+      "type": "multiple_choice",
+      "prompt": "Which structure is best for counting occurrences by key?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Set"
+        },
+        {
+          "id": "b",
+          "text": "Dictionary/hash map"
+        },
+        {
+          "id": "c",
+          "text": "Single integer only"
+        },
+        {
+          "id": "d",
+          "text": "Tuple with no mapping"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A dictionary maps each key to a count.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-collections-q2",
+      "type": "multiple_choice",
+      "prompt": "Why can a list not be used directly as a Python dictionary key?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is mutable and unhashable"
+        },
+        {
+          "id": "b",
+          "text": "It is too short"
+        },
+        {
+          "id": "c",
+          "text": "It has an index"
+        },
+        {
+          "id": "d",
+          "text": "Dictionaries accept no values"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Keys must be hashable; mutable lists are not.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-collections-q3",
+      "type": "short_answer",
+      "prompt": "How do list, set, and dictionary differ?",
+      "expected_answer": "Should mention appropriate use cases.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests structure selection.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-collections-q4",
+      "type": "scenario",
+      "prompt": "Why is removing items from a list while iterating over it risky?",
+      "expected_answer": "Iterate over a copy or build a new filtered list instead.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests mutation hazards.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-collections-q5",
+      "type": "practical",
+      "prompt": "For `[\"red\", \"blue\", \"red\"]`, give frequency counts and unique values preserving first-seen order.",
+      "expected_answer": "A set alone does not promise this order; dictionary counts or dict.fromkeys can preserve insertion order in modern Python.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Practical evaluation.",
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "batch": 4,
+  "lesson_count": 50,
+  "assessment_count": 50,
+  "solution_count": 50,
+  "status": "generated draft; no manual review requested",
+  "note": "All files are generated from manifest metadata. Open-ended assessment responses require rubric-based grading."
+}

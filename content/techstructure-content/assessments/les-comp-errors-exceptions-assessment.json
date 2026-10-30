@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-errors-exceptions",
+  "title": "Error Handling, Exceptions, and Stack Traces",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-errors-exceptions-q1",
+      "type": "multiple_choice",
+      "prompt": "In a Python traceback, where is the immediate failing line usually shown?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The final frame before the exception message"
+        },
+        {
+          "id": "b",
+          "text": "Always the first line"
+        },
+        {
+          "id": "c",
+          "text": "Never shown"
+        },
+        {
+          "id": "d",
+          "text": "Only in the OS log"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The final frame in the traceback normally points to the line where the exception was raised.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-errors-exceptions-q2",
+      "type": "multiple_choice",
+      "prompt": "Why prefer `with open(...)` for files?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It guarantees the file is closed when leaving the block"
+        },
+        {
+          "id": "b",
+          "text": "It disables errors"
+        },
+        {
+          "id": "c",
+          "text": "It encrypts the file"
+        },
+        {
+          "id": "d",
+          "text": "It makes JSON valid"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A context manager closes resources even if an exception occurs.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-errors-exceptions-q3",
+      "type": "short_answer",
+      "prompt": "When should code catch an exception?",
+      "expected_answer": "Avoid swallowing unexpected exceptions with broad empty handlers.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests recovery judgement.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-errors-exceptions-q4",
+      "type": "scenario",
+      "prompt": "A config file is missing versus present but malformed. Should both be handled identically?",
+      "expected_answer": "Different failures imply different recovery behavior.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests exception specificity.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-errors-exceptions-q5",
+      "type": "practical",
+      "prompt": "Name the import needed to catch `json.JSONDecodeError` and show a safe file-opening pattern.",
+      "expected_answer": "Must include import and context manager.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Practical evaluation.",
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-data-encoding",
+  "title": "Binary, Character Encoding, and Time",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-data-encoding-q1",
+      "type": "multiple_choice",
+      "prompt": "What is hexadecimal 0x2A in decimal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "32"
+        },
+        {
+          "id": "b",
+          "text": "40"
+        },
+        {
+          "id": "c",
+          "text": "42"
+        },
+        {
+          "id": "d",
+          "text": "52"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "2 × 16 + 10 = 42.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-data-encoding-q2",
+      "type": "multiple_choice",
+      "prompt": "Why can UTF-8 text length in bytes differ from character count?",
+      "options": [
+        {
+          "id": "a",
+          "text": "UTF-8 uses variable-length encodings"
+        },
+        {
+          "id": "b",
+          "text": "UTF-8 stores only ASCII"
+        },
+        {
+          "id": "c",
+          "text": "Every character uses exactly 8 bytes"
+        },
+        {
+          "id": "d",
+          "text": "Text has no encoding"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "UTF-8 encodes Unicode code points using one to four bytes.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-data-encoding-q3",
+      "type": "short_answer",
+      "prompt": "Why should an instant generally be stored with UTC or an explicit offset?",
+      "expected_answer": "UTC or an explicit offset identifies the instant; named time zones are needed for local calendar rules and daylight-saving transitions.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests time representation.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-data-encoding-q4",
+      "type": "scenario",
+      "prompt": "Why can JavaScript Number fail to represent every very large integer exactly while Python int can?",
+      "expected_answer": "The language types have different numeric semantics; use BigInt for large JavaScript integers when appropriate.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests language-specific number behavior.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-data-encoding-q5",
+      "type": "short_answer",
+      "prompt": "Convert binary 101010 to decimal and show the place-value sum.",
+      "expected_answer": "Bits correspond to powers of two: 1×32 + 0×16 + 1×8 + 0×4 + 1×2 + 0×1 = 42.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Checks actual encoding skill.",
+      "points": 1
+    }
+  ]
+}

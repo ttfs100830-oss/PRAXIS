@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-os-kernel",
+  "title": "Operating Systems, Kernel vs. User Space",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-os-kernel-q1",
+      "type": "multiple_choice",
+      "prompt": "Why does an application use a system call to access protected OS services?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To request a controlled transition to privileged kernel code"
+        },
+        {
+          "id": "b",
+          "text": "To bypass all permissions"
+        },
+        {
+          "id": "c",
+          "text": "To turn RAM into storage"
+        },
+        {
+          "id": "d",
+          "text": "To compile source code"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "System calls provide a controlled interface to privileged OS functionality.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-os-kernel-q2",
+      "type": "multiple_choice",
+      "prompt": "Which task is typically handled by the kernel?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rendering a CSS selector only"
+        },
+        {
+          "id": "b",
+          "text": "Scheduling CPU time and enforcing memory protection"
+        },
+        {
+          "id": "c",
+          "text": "Choosing a variable name"
+        },
+        {
+          "id": "d",
+          "text": "Writing documentation"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Scheduling and memory protection are core OS responsibilities.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-os-kernel-q3",
+      "type": "scenario",
+      "prompt": "An app receives “permission denied” when opening a file. Name two layers that may be involved.",
+      "expected_answer": "The application requests the operation; the kernel/filesystem checks identity and permissions and returns an error if access is denied.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests the boundary between user space and kernel space.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-os-kernel-q4",
+      "type": "short_answer",
+      "prompt": "What is user space?",
+      "expected_answer": "User space limits direct access to privileged hardware and kernel memory, improving isolation.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Checks key terminology.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-os-kernel-q5",
+      "type": "short_answer",
+      "prompt": "Describe the high-level steps when an application opens a file.",
+      "expected_answer": "The exact path varies by OS/runtime, but the kernel mediates protected file access.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests lifecycle reasoning.",
+      "points": 1
+    }
+  ]
+}

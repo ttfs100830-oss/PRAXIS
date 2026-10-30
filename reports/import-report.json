@@ -1,0 +1,112 @@
+{
+  "startedAt": "2026-10-30T08:24:19.093Z",
+  "source": "C:\\Users\\ttfs1\\Downloads\\Praxis\\content\\techstructure-content",
+  "sourceFiles": {
+    "manifest": "manifest.json",
+    "contentIndex": "content-index.json"
+  },
+  "archiveIntegrity": {
+    "manifestSha256": "2f41961e47dcfe71e8b52af6d9837b6fddbc1b7d52525cab0710e1c470f221e6",
+    "contentIndexSha256": "249bd9fd1df0626334149331ffdc3e1e2c2f3728d1a7bcdfcd77a2fb311de545",
+    "recordedManifestSha256": "79c0a3df6a66b99ba4abaed36bb55e1c473d332ab07f2dff158d66416086ecda",
+    "checksumMatchesRecorded": false
+  },
+  "counts": {
+    "source": {
+      "paths": 17,
+      "modules": 48,
+      "lessons": 166,
+      "assessments": 166,
+      "solutions": 166,
+      "questions": 830
+    },
+    "imported": {
+      "paths": 17,
+      "modules": 48,
+      "lessons": 166,
+      "assessments": 166,
+      "solutions": 166,
+      "questions": 830,
+      "options": 728,
+      "prerequisites": 228
+    },
+    "rejected": {
+      "paths": 0,
+      "modules": 0,
+      "lessons": 0,
+      "assessments": 0,
+      "solutions": 0,
+      "questions": 0
+    },
+    "skipped": {
+      "paths": 0,
+      "modules": 0,
+      "lessons": 0,
+      "assessments": 0,
+      "solutions": 0,
+      "questions": 0
+    },
+    "duplicateRecords": 0,
+    "warnings": 0
+  },
+  "rejectionReasons": [],
+  "rejectedRecords": [],
+  "skippedRecords": [],
+  "warnings": [],
+  "schemaVariants": {
+    "v2": 19,
+    "v1": 48,
+    "legacy-free-response": 99
+  },
+  "questionTypes": {
+    "multiple_choice": 182,
+    "short_answer": 274,
+    "scenario": 118,
+    "practical": 58,
+    "application": 99,
+    "debugging": 99
+  },
+  "prerequisites": {
+    "edges": 228,
+    "missing": [],
+    "selfReferences": [],
+    "cycles": []
+  },
+  "checks": {
+    "manifestIndexAgreement": true,
+    "missingLessonFiles": 0,
+    "missingAssessmentFiles": 0,
+    "missingSolutionFiles": 0,
+    "invalidMultipleChoiceOptions": 0,
+    "noMissingReferences": true
+  },
+  "finishedAt": "2026-10-30T08:24:20.036Z",
+  "curriculum": {
+    "generatedAt": "2026-10-30T08:24:19.093Z",
+    "source": "techstructure-content-merged.zip",
+    "sourceDirectory": "content/techstructure-content",
+    "manifestSha256": "2f41961e47dcfe71e8b52af6d9837b6fddbc1b7d52525cab0710e1c470f221e6",
+    "contentIndexSha256": "249bd9fd1df0626334149331ffdc3e1e2c2f3728d1a7bcdfcd77a2fb311de545",
+    "counts": {
+      "paths": 17,
+      "modules": 48,
+      "lessons": 166,
+      "assessments": 166,
+      "solutions": 166,
+      "questions": 830,
+      "multipleChoiceQuestions": 182,
+      "freeResponseQuestions": 648
+    },
+    "caveats": [
+      "The archive's own batch-01 report says the content still needs further review and is not release-ready.",
+      "Batches 3 and 4 identify themselves as generated drafts.",
+      "The archive records a stale manifest checksum; the checksum of the actual archived manifest was calculated during import.",
+      "No supplied content was rewritten. Editorial limitations are reported rather than silently corrected."
+    ]
+  },
+  "assessmentSchemas": {
+    "v2": 19,
+    "v1": 48,
+    "legacy-free-response": 99
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "lesson_id": "les-deploy-env-releases",
+  "lesson_title": "Environment Separation, Health Checks, and Rollbacks",
+  "assessment_title": "Environment Separation, Health Checks, and Rollbacks — Assessment",
+  "version": 1,
+  "passing_score_percent": 70,
+  "total_points": 10,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "prompt": "State the main outcome of **Environment Separation, Health Checks, and Rollbacks** in your own words.",
+      "expected_answer": "Manage staging environments, verify releases, and perform rollbacks.",
+      "points": 2,
+      "explanation": "A strong answer accurately restates the lesson scope and identifies the key mechanism or responsibility."
+    },
+    {
+      "id": "q2",
+      "type": "scenario",
+      "prompt": "For a task involving environment separation, health checks, and rollbacks, name the starting state, the operation, and the evidence you would use to confirm the expected result.",
+      "expected_answer": "Identifies a concrete starting state, a specific operation, the expected result, and an observable verification method.",
+      "points": 2,
+      "explanation": "The answer should be testable and specific, not just a list of definitions."
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "prompt": "Describe one plausible failure mode or limitation and explain how you would detect it.",
+      "expected_answer": "A relevant failure case paired with evidence such as an error, log, test result, command output, or state mismatch.",
+      "points": 2,
+      "explanation": "Credit requires both a plausible failure and a way to distinguish it from success."
+    },
+    {
+      "id": "q4",
+      "type": "application",
+      "prompt": "Design a small example that demonstrates this lesson's scope: Manage staging environments, verify releases, and perform rollbacks. Include one expected result.",
+      "expected_answer": "A coherent example aligned with the lesson scope, plus an explicit expected result that can be checked.",
+      "points": 2,
+      "explanation": "Answers are graded for alignment, correctness, and verifiability rather than matching one exact implementation."
+    },
+    {
+      "id": "q5",
+      "type": "debugging",
+      "prompt": "A teammate says, 'It should work,' but provides no evidence. What minimum verification steps would you request before accepting the change?",
+      "expected_answer": "A reproducible procedure, relevant input/preconditions, expected and actual outcomes, and evidence from a test, log, command, or observed state.",
+      "points": 2,
+      "explanation": "Engineering claims should be supported by reproducible evidence."
+    }
+  ],
+  "grading_note": "Open-ended responses should be graded against the expected answer and explanation; equivalent correct examples are acceptable."
+}

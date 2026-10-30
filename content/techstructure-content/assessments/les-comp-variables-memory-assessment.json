@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-variables-memory",
+  "title": "Variables, Primitives, and Reference Semantics",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-variables-memory-q1",
+      "type": "multiple_choice",
+      "prompt": "After `a=[1]; b=a; b.append(2)`, what is `a`?",
+      "options": [
+        {
+          "id": "a",
+          "text": "[1]"
+        },
+        {
+          "id": "b",
+          "text": "[1, 2]"
+        },
+        {
+          "id": "c",
+          "text": "[2]"
+        },
+        {
+          "id": "d",
+          "text": "Error"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Both names reference the same mutable list, so mutation is visible through both.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-variables-memory-q2",
+      "type": "multiple_choice",
+      "prompt": "In JavaScript, what does `===` mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Always object identity only"
+        },
+        {
+          "id": "b",
+          "text": "Strict equality without type coercion"
+        },
+        {
+          "id": "c",
+          "text": "Assignment"
+        },
+        {
+          "id": "d",
+          "text": "Deep equality for all objects"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "For objects it compares reference identity; for primitives it compares value under strict-equality rules.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-variables-memory-q3",
+      "type": "short_answer",
+      "prompt": "What is aliasing?",
+      "expected_answer": "Mutating a shared mutable object through one alias can be observed through another.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests reference semantics.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-variables-memory-q4",
+      "type": "scenario",
+      "prompt": "How can you create a shallow copy of a Python list, and what limitation remains?",
+      "expected_answer": "A shallow copy copies the outer container only.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests copying.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-variables-memory-q5",
+      "type": "short_answer",
+      "prompt": "Why is “all primitives are on the stack” an unsafe general explanation for Python?",
+      "expected_answer": "Avoids importing another language’s memory model into Python.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests language-specific accuracy.",
+      "points": 1
+    }
+  ]
+}

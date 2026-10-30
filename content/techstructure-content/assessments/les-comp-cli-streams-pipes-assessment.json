@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-cli-streams-pipes",
+  "title": "Standard Streams, Redirection, and Pipes",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-cli-streams-pipes-q1",
+      "type": "multiple_choice",
+      "prompt": "What does a pipe `|` connect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "One command’s stdout to the next command’s stdin"
+        },
+        {
+          "id": "b",
+          "text": "Two directories"
+        },
+        {
+          "id": "c",
+          "text": "Two processes’ memory spaces"
+        },
+        {
+          "id": "d",
+          "text": "Only stderr"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Pipes pass a byte stream from one process to another.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-cli-streams-pipes-q2",
+      "type": "multiple_choice",
+      "prompt": "What does `2>` redirect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Standard input"
+        },
+        {
+          "id": "b",
+          "text": "Standard output"
+        },
+        {
+          "id": "c",
+          "text": "Standard error"
+        },
+        {
+          "id": "d",
+          "text": "Exit status"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "File descriptor 2 is standard error.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-cli-streams-pipes-q3",
+      "type": "short_answer",
+      "prompt": "What is the difference between `>` and `>>`?",
+      "expected_answer": "Both redirect stdout by default, but their file behavior differs.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests redirection.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-cli-streams-pipes-q4",
+      "type": "scenario",
+      "prompt": "Why can `2>&1` behave differently depending on its order relative to `>`?",
+      "expected_answer": "Shell redirections are processed in order.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests descriptor semantics.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-cli-streams-pipes-q5",
+      "type": "practical",
+      "prompt": "How can you pass a command’s output through a filter and save the result?",
+      "expected_answer": "The answer should show a pipe and output redirection and explain the filter.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Practical evaluation.",
+      "points": 2
+    }
+  ]
+}

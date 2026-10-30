@@ -1,0 +1,2 @@
+SHA-256 of manifest.json in this revised archive: 79c0a3df6a66b99ba4abaed36bb55e1c473d332ab07f2dff158d66416086ecda
+Compare with a trusted original manifest before claiming unchanged.

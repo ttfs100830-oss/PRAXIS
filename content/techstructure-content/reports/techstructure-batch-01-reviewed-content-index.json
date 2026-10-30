@@ -1,0 +1,351 @@
+{
+  "batch": 1,
+  "path_id": "path-comp-foundations",
+  "path_title": "Computing, OS & Programming Foundations",
+  "generated_at": "2026-10-29",
+  "lessons": {
+    "les-comp-cpu-memory": {
+      "lesson_id": "les-comp-cpu-memory",
+      "title": "CPU, RAM, and Persistent Storage",
+      "module_id": "mod-comp-hardware-os",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Explain how instructions and data flow from persistent disk into volatile RAM and are executed.",
+      "prerequisites": [],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-hardware-os/les-comp-cpu-memory.md",
+      "assessment_file": "assessments/les-comp-cpu-memory-assessment.json",
+      "solution_file": "solutions/les-comp-cpu-memory-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 1608,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-data-encoding": {
+      "lesson_id": "les-comp-data-encoding",
+      "title": "Binary, Character Encoding, and Time",
+      "module_id": "mod-comp-hardware-os",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Represent integers, floating-point numbers, UTF-8 text, and UTC timestamps.",
+      "prerequisites": [
+        "les-comp-cpu-memory"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-hardware-os/les-comp-data-encoding.md",
+      "assessment_file": "assessments/les-comp-data-encoding-assessment.json",
+      "solution_file": "solutions/les-comp-data-encoding-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 1395,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-os-kernel": {
+      "lesson_id": "les-comp-os-kernel",
+      "title": "Operating Systems, Kernel vs. User Space",
+      "module_id": "mod-comp-hardware-os",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Distinguish between privileged kernel operations and safe user-space application execution.",
+      "prerequisites": [
+        "les-comp-cpu-memory"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-hardware-os/les-comp-os-kernel.md",
+      "assessment_file": "assessments/les-comp-os-kernel-assessment.json",
+      "solution_file": "solutions/les-comp-os-kernel-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 1009,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-processes-threads": {
+      "lesson_id": "les-comp-processes-threads",
+      "title": "Processes, Threads, and Memory Allocation",
+      "module_id": "mod-comp-hardware-os",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Describe how the OS isolates process memory and schedules CPU time across threads.",
+      "prerequisites": [
+        "les-comp-os-kernel"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-hardware-os/les-comp-processes-threads.md",
+      "assessment_file": "assessments/les-comp-processes-threads-assessment.json",
+      "solution_file": "solutions/les-comp-processes-threads-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 1093,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-filesystems-perms": {
+      "lesson_id": "les-comp-filesystems-perms",
+      "title": "File Systems, Paths, and Permissions",
+      "module_id": "mod-comp-hardware-os",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Navigate hierarchical file trees and interpret read/write/execute permissions.",
+      "prerequisites": [
+        "les-comp-os-kernel"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-hardware-os/les-comp-filesystems-perms.md",
+      "assessment_file": "assessments/les-comp-filesystems-perms-assessment.json",
+      "solution_file": "solutions/les-comp-filesystems-perms-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 1077,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-cli-navigation": {
+      "lesson_id": "les-comp-cli-navigation",
+      "title": "Terminal Navigation",
+      "module_id": "mod-comp-cli-basics",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Execute core shell commands to inspect directories and move files.",
+      "prerequisites": [
+        "les-comp-filesystems-perms"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-cli-basics/les-comp-cli-navigation.md",
+      "assessment_file": "assessments/les-comp-cli-navigation-assessment.json",
+      "solution_file": "solutions/les-comp-cli-navigation-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 817,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-cli-streams-pipes": {
+      "lesson_id": "les-comp-cli-streams-pipes",
+      "title": "Standard Streams, Redirection, and Pipes",
+      "module_id": "mod-comp-cli-basics",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Chain small CLI programs together using pipes and redirect output.",
+      "prerequisites": [
+        "les-comp-cli-navigation"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-cli-basics/les-comp-cli-streams-pipes.md",
+      "assessment_file": "assessments/les-comp-cli-streams-pipes-assessment.json",
+      "solution_file": "solutions/les-comp-cli-streams-pipes-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 906,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-cli-processes": {
+      "lesson_id": "les-comp-cli-processes",
+      "title": "Inspecting and Managing Running Processes",
+      "module_id": "mod-comp-cli-basics",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Monitor system resource usage and safely terminate hung processes.",
+      "prerequisites": [
+        "les-comp-processes-threads",
+        "les-comp-cli-navigation"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-cli-basics/les-comp-cli-processes.md",
+      "assessment_file": "assessments/les-comp-cli-processes-assessment.json",
+      "solution_file": "solutions/les-comp-cli-processes-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 880,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-source-to-exec": {
+      "lesson_id": "les-comp-source-to-exec",
+      "title": "Source Code, Compilation, and Interpretation",
+      "module_id": "mod-comp-prog-models",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Compare compilation, virtual machines, and interpreted runtimes.",
+      "prerequisites": [
+        "les-comp-processes-threads"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-prog-models/les-comp-source-to-exec.md",
+      "assessment_file": "assessments/les-comp-source-to-exec-assessment.json",
+      "solution_file": "solutions/les-comp-source-to-exec-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 931,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-variables-memory": {
+      "lesson_id": "les-comp-variables-memory",
+      "title": "Variables, Primitives, and Reference Semantics",
+      "module_id": "mod-comp-prog-models",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Trace how primitive values and object references are stored in memory.",
+      "prerequisites": [
+        "les-comp-source-to-exec"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-prog-models/les-comp-variables-memory.md",
+      "assessment_file": "assessments/les-comp-variables-memory-assessment.json",
+      "solution_file": "solutions/les-comp-variables-memory-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 1024,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-data-formats": {
+      "lesson_id": "les-comp-data-formats",
+      "title": "Data Serialization: JSON, YAML, and CSV",
+      "module_id": "mod-comp-prog-models",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Read, write, and validate standard data interchange formats.",
+      "prerequisites": [
+        "les-comp-variables-memory"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-prog-models/les-comp-data-formats.md",
+      "assessment_file": "assessments/les-comp-data-formats-assessment.json",
+      "solution_file": "solutions/les-comp-data-formats-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 870,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-control-functions": {
+      "lesson_id": "les-comp-control-functions",
+      "title": "Control Flow, Functions, and Call Stacks",
+      "module_id": "mod-comp-prog-models",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Construct conditional branches and trace execution frames.",
+      "prerequisites": [
+        "les-comp-variables-memory"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-prog-models/les-comp-control-functions.md",
+      "assessment_file": "assessments/les-comp-control-functions-assessment.json",
+      "solution_file": "solutions/les-comp-control-functions-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 820,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-type-systems": {
+      "lesson_id": "les-comp-type-systems",
+      "title": "Static vs. Dynamic Typing and Type Safety",
+      "module_id": "mod-comp-prog-models",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Explain how static type checkers catch structural bugs before runtime.",
+      "prerequisites": [
+        "les-comp-control-functions"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-prog-models/les-comp-type-systems.md",
+      "assessment_file": "assessments/les-comp-type-systems-assessment.json",
+      "solution_file": "solutions/les-comp-type-systems-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 799,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-oop-classes": {
+      "lesson_id": "les-comp-oop-classes",
+      "title": "Object-Oriented Programming: Classes and Instances",
+      "module_id": "mod-comp-prog-models",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Design basic classes with state and behavior encapsulation.",
+      "prerequisites": [
+        "les-comp-control-functions"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-prog-models/les-comp-oop-classes.md",
+      "assessment_file": "assessments/les-comp-oop-classes-assessment.json",
+      "solution_file": "solutions/les-comp-oop-classes-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 722,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-algo-thinking": {
+      "lesson_id": "les-comp-algo-thinking",
+      "title": "Algorithmic Thinking and Basic Flow Control",
+      "module_id": "mod-comp-data-modularity",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Implement basic algorithmic logic and iteration.",
+      "prerequisites": [
+        "les-comp-control-functions"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-data-modularity/les-comp-algo-thinking.md",
+      "assessment_file": "assessments/les-comp-algo-thinking-assessment.json",
+      "solution_file": "solutions/les-comp-algo-thinking-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 716,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-collections": {
+      "lesson_id": "les-comp-collections",
+      "title": "Arrays, Hash Maps, and Sets",
+      "module_id": "mod-comp-data-modularity",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Select and manipulate appropriate in-memory data structures.",
+      "prerequisites": [
+        "les-comp-algo-thinking"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-data-modularity/les-comp-collections.md",
+      "assessment_file": "assessments/les-comp-collections-assessment.json",
+      "solution_file": "solutions/les-comp-collections-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 785,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-modules-scope": {
+      "lesson_id": "les-comp-modules-scope",
+      "title": "Lexical Scope, Closures, and Module Systems",
+      "module_id": "mod-comp-data-modularity",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Organize code across multiple files while avoiding global pollution.",
+      "prerequisites": [
+        "les-comp-control-functions"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-data-modularity/les-comp-modules-scope.md",
+      "assessment_file": "assessments/les-comp-modules-scope-assessment.json",
+      "solution_file": "solutions/les-comp-modules-scope-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 656,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-errors-exceptions": {
+      "lesson_id": "les-comp-errors-exceptions",
+      "title": "Error Handling, Exceptions, and Stack Traces",
+      "module_id": "mod-comp-data-modularity",
+      "path_id": "path-comp-foundations",
+      "classification": "core",
+      "scope": "Implement structured try/catch error recovery.",
+      "prerequisites": [
+        "les-comp-control-functions"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-data-modularity/les-comp-errors-exceptions.md",
+      "assessment_file": "assessments/les-comp-errors-exceptions-assessment.json",
+      "solution_file": "solutions/les-comp-errors-exceptions-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 767,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    },
+    "les-comp-concurrency-async": {
+      "lesson_id": "les-comp-concurrency-async",
+      "title": "Blocking I/O, Event Loops, and Async/Await",
+      "module_id": "mod-comp-data-modularity",
+      "path_id": "path-comp-foundations",
+      "classification": "advanced",
+      "scope": "Contrast blocking execution with non-blocking event loops and promises.",
+      "prerequisites": [
+        "les-comp-processes-threads",
+        "les-comp-errors-exceptions"
+      ],
+      "content_file": "paths/path-comp-foundations/modules/mod-comp-data-modularity/les-comp-concurrency-async.md",
+      "assessment_file": "assessments/les-comp-concurrency-async-assessment.json",
+      "solution_file": "solutions/les-comp-concurrency-async-solutions.md",
+      "status": "revised-needs-independent-review",
+      "word_count": 890,
+      "assessment_question_count": 5,
+      "solution_status": "lesson-specific-answer-key-added"
+    }
+  },
+  "audit_note": "Revised draft; structural and Python syntax checks performed, but runtime correctness and one-to-one exercise/solution mapping still require review. See reports/batch-01-validation.md."
+}

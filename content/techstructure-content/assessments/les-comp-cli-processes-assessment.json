@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-cli-processes",
+  "title": "Inspecting and Managing Running Processes",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-cli-processes-q1",
+      "type": "multiple_choice",
+      "prompt": "What is the usual intent of SIGTERM?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Request graceful process termination"
+        },
+        {
+          "id": "b",
+          "text": "Force immediate uncatchable termination"
+        },
+        {
+          "id": "c",
+          "text": "Start a process"
+        },
+        {
+          "id": "d",
+          "text": "List files"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "SIGTERM allows a process to clean up before exiting.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-cli-processes-q2",
+      "type": "multiple_choice",
+      "prompt": "Why confirm PID and command before killing a process?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PIDs are always secret"
+        },
+        {
+          "id": "b",
+          "text": "To avoid terminating the wrong process"
+        },
+        {
+          "id": "c",
+          "text": "To improve DNS"
+        },
+        {
+          "id": "d",
+          "text": "To change its permissions"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Process IDs can be reused or misidentified; confirm target identity.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-cli-processes-q3",
+      "type": "short_answer",
+      "prompt": "Name three useful process details to inspect.",
+      "expected_answer": "Any three relevant fields with an explanation are acceptable.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests process inspection.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-cli-processes-q4",
+      "type": "scenario",
+      "prompt": "A development server hangs. Outline a safe sequence before using SIGKILL.",
+      "expected_answer": "Safe process management prefers diagnosis and graceful shutdown first.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests operational judgement.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-cli-processes-q5",
+      "type": "short_answer",
+      "prompt": "Why must command availability be considered across Linux and macOS?",
+      "expected_answer": "Portable instructions should state platform assumptions or offer alternatives.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Checks platform awareness.",
+      "points": 1
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-cli-navigation",
+  "title": "Terminal Navigation",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-cli-navigation-q1",
+      "type": "multiple_choice",
+      "prompt": "What does `pwd` display?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Current working directory"
+        },
+        {
+          "id": "b",
+          "text": "Processes"
+        },
+        {
+          "id": "c",
+          "text": "File permissions only"
+        },
+        {
+          "id": "d",
+          "text": "Current date"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "`pwd` prints the working directory.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-cli-navigation-q2",
+      "type": "multiple_choice",
+      "prompt": "What does `mkdir -p a/b` do on common Unix shells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deletes a/b"
+        },
+        {
+          "id": "b",
+          "text": "Creates missing parent directories as needed"
+        },
+        {
+          "id": "c",
+          "text": "Copies a file"
+        },
+        {
+          "id": "d",
+          "text": "Changes permissions"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The `-p` option creates parent directories and does not fail just because they already exist.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-cli-navigation-q3",
+      "type": "short_answer",
+      "prompt": "Explain absolute versus relative paths.",
+      "expected_answer": "Correctly distinguishes the bases used to resolve paths.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests path literacy.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-cli-navigation-q4",
+      "type": "scenario",
+      "prompt": "Why is `command1 && command2` useful in a setup script?",
+      "expected_answer": "It prevents later steps from running after a failed prerequisite command.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Checks shell control flow.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-cli-navigation-q5",
+      "type": "practical",
+      "prompt": "Give commands to create `practice/logs`, create a file inside it, and list files under practice.",
+      "expected_answer": "Commands should create the nested directory, write a file, and enumerate files.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Practical evaluation.",
+      "points": 2
+    }
+  ]
+}

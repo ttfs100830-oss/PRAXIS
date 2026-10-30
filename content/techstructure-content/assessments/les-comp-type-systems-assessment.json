@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-type-systems",
+  "title": "Static vs. Dynamic Typing and Type Safety",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-type-systems-q1",
+      "type": "multiple_choice",
+      "prompt": "Are Python type annotations generally enforced by the runtime automatically?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes, always"
+        },
+        {
+          "id": "b",
+          "text": "No; external/static tools can analyze them"
+        },
+        {
+          "id": "c",
+          "text": "Only inside functions"
+        },
+        {
+          "id": "d",
+          "text": "Only on Windows"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Annotations support tooling but ordinary Python does not generally enforce them at runtime.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-type-systems-q2",
+      "type": "multiple_choice",
+      "prompt": "Which language adds compile-time type checking on top of JavaScript syntax?",
+      "options": [
+        {
+          "id": "a",
+          "text": "TypeScript"
+        },
+        {
+          "id": "b",
+          "text": "JSON"
+        },
+        {
+          "id": "c",
+          "text": "HTML"
+        },
+        {
+          "id": "d",
+          "text": "SQL"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "TypeScript checks types and emits JavaScript.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-type-systems-q3",
+      "type": "short_answer",
+      "prompt": "What is one benefit and one limitation of static type checking?",
+      "expected_answer": "Balanced answer recognizes both value and limits.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests trade-offs.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-type-systems-q4",
+      "type": "scenario",
+      "prompt": "An API returns JSON with `age: \"17\"` but your type says age is a number. What should the program do?",
+      "expected_answer": "External input needs runtime schema/domain checks.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests static/runtime distinction.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-type-systems-q5",
+      "type": "short_answer",
+      "prompt": "Why is `name: string` not valid ordinary JavaScript parameter syntax?",
+      "expected_answer": "JavaScript can use runtime checks or JSDoc/tooling, but TypeScript syntax requires TypeScript processing.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Checks language distinction.",
+      "points": 1
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-oop-classes",
+  "title": "Object-Oriented Programming: Classes and Instances",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-oop-classes-q1",
+      "type": "multiple_choice",
+      "prompt": "What is an instance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A particular object created from a class"
+        },
+        {
+          "id": "b",
+          "text": "A module import"
+        },
+        {
+          "id": "c",
+          "text": "A type error"
+        },
+        {
+          "id": "d",
+          "text": "A filesystem path"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A class defines a structure/behavior; an instance is a concrete object.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-oop-classes-q2",
+      "type": "multiple_choice",
+      "prompt": "What does encapsulation aim to do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Expose every internal detail"
+        },
+        {
+          "id": "b",
+          "text": "Group state and behavior while controlling how state changes"
+        },
+        {
+          "id": "c",
+          "text": "Remove all methods"
+        },
+        {
+          "id": "d",
+          "text": "Prevent testing"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Encapsulation helps preserve invariants through a defined interface.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-oop-classes-q3",
+      "type": "short_answer",
+      "prompt": "Why use a method such as `deposit` instead of changing an account balance arbitrarily?",
+      "expected_answer": "Methods centralize behavior and checks.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests design reasoning.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-oop-classes-q4",
+      "type": "scenario",
+      "prompt": "What does a leading underscore mean for a Python attribute?",
+      "expected_answer": "Python relies on conventions/name-mangling rather than strict private access for ordinary attributes.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests Python-specific semantics.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-oop-classes-q5",
+      "type": "practical",
+      "prompt": "State two invariants for a ShoppingCart class.",
+      "expected_answer": "Must be testable conditions maintained by operations.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Practical evaluation.",
+      "points": 2
+    }
+  ]
+}

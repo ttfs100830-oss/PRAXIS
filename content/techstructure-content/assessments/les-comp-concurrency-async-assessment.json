@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-concurrency-async",
+  "title": "Blocking I/O, Event Loops, and Async/Await",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-concurrency-async-q1",
+      "type": "multiple_choice",
+      "prompt": "What is the main benefit of async I/O?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Automatically parallelizes CPU-heavy work"
+        },
+        {
+          "id": "b",
+          "text": "Lets tasks make progress while waiting for I/O"
+        },
+        {
+          "id": "c",
+          "text": "Removes all errors"
+        },
+        {
+          "id": "d",
+          "text": "Eliminates networking latency"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Async I/O helps overlap waiting time among concurrent tasks.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-concurrency-async-q2",
+      "type": "multiple_choice",
+      "prompt": "Does an HTTP 404 response normally make JavaScript fetch reject automatically?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes, all non-2xx reject"
+        },
+        {
+          "id": "b",
+          "text": "No, check `response.ok` or status"
+        },
+        {
+          "id": "c",
+          "text": "Only on Linux"
+        },
+        {
+          "id": "d",
+          "text": "Fetch returns parsed JSON automatically"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Fetch resolves for HTTP error statuses; callers should inspect `ok`/status.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-concurrency-async-q3",
+      "type": "short_answer",
+      "prompt": "Distinguish concurrency from parallelism.",
+      "expected_answer": "Async I/O can be concurrent without CPU parallelism.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests core concept.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-concurrency-async-q4",
+      "type": "scenario",
+      "prompt": "Why might adding `async` to a CPU-bound loop not speed it up?",
+      "expected_answer": "CPU-bound work may need processes, threads/native code, or algorithmic optimization.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests appropriate tool choice.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-concurrency-async-q5",
+      "type": "practical",
+      "prompt": "What should a Node.js fetch example check before parsing JSON?",
+      "expected_answer": "Valid answer handles HTTP status separately from network exceptions.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Practical evaluation.",
+      "points": 2
+    }
+  ]
+}

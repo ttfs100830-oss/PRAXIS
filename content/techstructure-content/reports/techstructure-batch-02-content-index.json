@@ -1,0 +1,496 @@
+{
+  "schema_version": 1,
+  "batch": "batch-02",
+  "description": "Batch 2 content for complete paths: Development Environment & Toolchain; Git, GitHub & Collaborative Engineering; Networking & Communication Protocols; Web Architecture Foundations; Web Fundamentals & Frontend Engineering. Manifest is copied unchanged from the source package.",
+  "manifest_file": "manifest.json",
+  "batch_paths": [
+    "path-dev-toolchain",
+    "path-git-collab",
+    "path-net-comms",
+    "path-web-arch",
+    "path-web-frontend"
+  ],
+  "lesson_count": 48,
+  "lessons": [
+    {
+      "lesson_id": "les-dev-shells-profiles",
+      "title": "Shells and Startup Profiles",
+      "path_id": "path-dev-toolchain",
+      "module_id": "mod-dev-shell-env",
+      "classification": "core",
+      "lesson_file": "paths/path-dev-toolchain/modules/mod-dev-shell-env/les-dev-shells-profiles.md",
+      "assessment_file": "assessments/les-dev-shells-profiles-assessment.json",
+      "solution_file": "solutions/les-dev-shells-profiles-solution.md"
+    },
+    {
+      "lesson_id": "les-dev-path-env-vars",
+      "title": "PATH, .env Files, and Secret Hygiene",
+      "path_id": "path-dev-toolchain",
+      "module_id": "mod-dev-shell-env",
+      "classification": "core",
+      "lesson_file": "paths/path-dev-toolchain/modules/mod-dev-shell-env/les-dev-path-env-vars.md",
+      "assessment_file": "assessments/les-dev-path-env-vars-assessment.json",
+      "solution_file": "solutions/les-dev-path-env-vars-solution.md"
+    },
+    {
+      "lesson_id": "les-dev-ide-ergonomics",
+      "title": "Code Editors, Language Servers, and Debuggers",
+      "path_id": "path-dev-toolchain",
+      "module_id": "mod-dev-shell-env",
+      "classification": "core",
+      "lesson_file": "paths/path-dev-toolchain/modules/mod-dev-shell-env/les-dev-ide-ergonomics.md",
+      "assessment_file": "assessments/les-dev-ide-ergonomics-assessment.json",
+      "solution_file": "solutions/les-dev-ide-ergonomics-solution.md"
+    },
+    {
+      "lesson_id": "les-dev-runtime-managers",
+      "title": "Managing Node.js and Python Runtimes",
+      "path_id": "path-dev-toolchain",
+      "module_id": "mod-dev-runtimes-pkgs",
+      "classification": "core",
+      "lesson_file": "paths/path-dev-toolchain/modules/mod-dev-runtimes-pkgs/les-dev-runtime-managers.md",
+      "assessment_file": "assessments/les-dev-runtime-managers-assessment.json",
+      "solution_file": "solutions/les-dev-runtime-managers-solution.md"
+    },
+    {
+      "lesson_id": "les-dev-pkg-manifests",
+      "title": "Package Managers and Manifest Files",
+      "path_id": "path-dev-toolchain",
+      "module_id": "mod-dev-runtimes-pkgs",
+      "classification": "core",
+      "lesson_file": "paths/path-dev-toolchain/modules/mod-dev-runtimes-pkgs/les-dev-pkg-manifests.md",
+      "assessment_file": "assessments/les-dev-pkg-manifests-assessment.json",
+      "solution_file": "solutions/les-dev-pkg-manifests-solution.md"
+    },
+    {
+      "lesson_id": "les-dev-semver-lockfiles",
+      "title": "Semantic Versioning and Lockfiles",
+      "path_id": "path-dev-toolchain",
+      "module_id": "mod-dev-runtimes-pkgs",
+      "classification": "core",
+      "lesson_file": "paths/path-dev-toolchain/modules/mod-dev-runtimes-pkgs/les-dev-semver-lockfiles.md",
+      "assessment_file": "assessments/les-dev-semver-lockfiles-assessment.json",
+      "solution_file": "solutions/les-dev-semver-lockfiles-solution.md"
+    },
+    {
+      "lesson_id": "les-dev-oss-licensing",
+      "title": "Open-Source Packages and Software Licenses",
+      "path_id": "path-dev-toolchain",
+      "module_id": "mod-dev-runtimes-pkgs",
+      "classification": "core",
+      "lesson_file": "paths/path-dev-toolchain/modules/mod-dev-runtimes-pkgs/les-dev-oss-licensing.md",
+      "assessment_file": "assessments/les-dev-oss-licensing-assessment.json",
+      "solution_file": "solutions/les-dev-oss-licensing-solution.md"
+    },
+    {
+      "lesson_id": "les-dev-project-anatomy",
+      "title": "Anatomy of a Real Software Repository",
+      "path_id": "path-dev-toolchain",
+      "module_id": "mod-dev-build-workspace",
+      "classification": "core",
+      "lesson_file": "paths/path-dev-toolchain/modules/mod-dev-build-workspace/les-dev-project-anatomy.md",
+      "assessment_file": "assessments/les-dev-project-anatomy-assessment.json",
+      "solution_file": "solutions/les-dev-project-anatomy-solution.md"
+    },
+    {
+      "lesson_id": "les-dev-monorepo-workspaces",
+      "title": "Package Workspaces and Basic Monorepos",
+      "path_id": "path-dev-toolchain",
+      "module_id": "mod-dev-build-workspace",
+      "classification": "advanced",
+      "lesson_file": "paths/path-dev-toolchain/modules/mod-dev-build-workspace/les-dev-monorepo-workspaces.md",
+      "assessment_file": "assessments/les-dev-monorepo-workspaces-assessment.json",
+      "solution_file": "solutions/les-dev-monorepo-workspaces-solution.md"
+    },
+    {
+      "lesson_id": "les-dev-scripts-bundlers",
+      "title": "Task Runners, Transpilers, and Bundlers",
+      "path_id": "path-dev-toolchain",
+      "module_id": "mod-dev-build-workspace",
+      "classification": "core",
+      "lesson_file": "paths/path-dev-toolchain/modules/mod-dev-build-workspace/les-dev-scripts-bundlers.md",
+      "assessment_file": "assessments/les-dev-scripts-bundlers-assessment.json",
+      "solution_file": "solutions/les-dev-scripts-bundlers-solution.md"
+    },
+    {
+      "lesson_id": "les-dev-local-troubleshooting",
+      "title": "Systematic Local Environment Troubleshooting",
+      "path_id": "path-dev-toolchain",
+      "module_id": "mod-dev-build-workspace",
+      "classification": "core",
+      "lesson_file": "paths/path-dev-toolchain/modules/mod-dev-build-workspace/les-dev-local-troubleshooting.md",
+      "assessment_file": "assessments/les-dev-local-troubleshooting-assessment.json",
+      "solution_file": "solutions/les-dev-local-troubleshooting-solution.md"
+    },
+    {
+      "lesson_id": "les-dev-docker-basics",
+      "title": "Docker Container Basics",
+      "path_id": "path-dev-toolchain",
+      "module_id": "mod-dev-build-workspace",
+      "classification": "core",
+      "lesson_file": "paths/path-dev-toolchain/modules/mod-dev-build-workspace/les-dev-docker-basics.md",
+      "assessment_file": "assessments/les-dev-docker-basics-assessment.json",
+      "solution_file": "solutions/les-dev-docker-basics-solution.md"
+    },
+    {
+      "lesson_id": "les-git-mental-model",
+      "title": "Git's Snapshot Model and the .git Directory",
+      "path_id": "path-git-collab",
+      "module_id": "mod-git-local-graph",
+      "classification": "core",
+      "lesson_file": "paths/path-git-collab/modules/mod-git-local-graph/les-git-mental-model.md",
+      "assessment_file": "assessments/les-git-mental-model-assessment.json",
+      "solution_file": "solutions/les-git-mental-model-solution.md"
+    },
+    {
+      "lesson_id": "les-git-staging-commits",
+      "title": "Working Tree, Staging Area, and Atomic Commits",
+      "path_id": "path-git-collab",
+      "module_id": "mod-git-local-graph",
+      "classification": "core",
+      "lesson_file": "paths/path-git-collab/modules/mod-git-local-graph/les-git-staging-commits.md",
+      "assessment_file": "assessments/les-git-staging-commits-assessment.json",
+      "solution_file": "solutions/les-git-staging-commits-solution.md"
+    },
+    {
+      "lesson_id": "les-git-history-diff",
+      "title": "Inspecting History, Diffs, and Undoing Local Mistakes",
+      "path_id": "path-git-collab",
+      "module_id": "mod-git-local-graph",
+      "classification": "core",
+      "lesson_file": "paths/path-git-collab/modules/mod-git-local-graph/les-git-history-diff.md",
+      "assessment_file": "assessments/les-git-history-diff-assessment.json",
+      "solution_file": "solutions/les-git-history-diff-solution.md"
+    },
+    {
+      "lesson_id": "les-git-branches-head",
+      "title": "Branches as Pointers and HEAD Navigation",
+      "path_id": "path-git-collab",
+      "module_id": "mod-git-remote-team",
+      "classification": "core",
+      "lesson_file": "paths/path-git-collab/modules/mod-git-remote-team/les-git-branches-head.md",
+      "assessment_file": "assessments/les-git-branches-head-assessment.json",
+      "solution_file": "solutions/les-git-branches-head-solution.md"
+    },
+    {
+      "lesson_id": "les-git-remotes-sync",
+      "title": "Remote Repositories: Fetch, Pull, and Push",
+      "path_id": "path-git-collab",
+      "module_id": "mod-git-remote-team",
+      "classification": "core",
+      "lesson_file": "paths/path-git-collab/modules/mod-git-remote-team/les-git-remotes-sync.md",
+      "assessment_file": "assessments/les-git-remotes-sync-assessment.json",
+      "solution_file": "solutions/les-git-remotes-sync-solution.md"
+    },
+    {
+      "lesson_id": "les-git-prs-code-review",
+      "title": "Pull Requests, Code Reviews, and Issue Tracking",
+      "path_id": "path-git-collab",
+      "module_id": "mod-git-remote-team",
+      "classification": "core",
+      "lesson_file": "paths/path-git-collab/modules/mod-git-remote-team/les-git-prs-code-review.md",
+      "assessment_file": "assessments/les-git-prs-code-review-assessment.json",
+      "solution_file": "solutions/les-git-prs-code-review-solution.md"
+    },
+    {
+      "lesson_id": "les-git-merge-rebase",
+      "title": "Fast-Forward Merges, 3-Way Merges, and Rebasing",
+      "path_id": "path-git-collab",
+      "module_id": "mod-git-branch-merge",
+      "classification": "advanced",
+      "lesson_file": "paths/path-git-collab/modules/mod-git-branch-merge/les-git-merge-rebase.md",
+      "assessment_file": "assessments/les-git-merge-rebase-assessment.json",
+      "solution_file": "solutions/les-git-merge-rebase-solution.md"
+    },
+    {
+      "lesson_id": "les-git-conflict-resolution",
+      "title": "Diagnosing and Resolving Merge Conflicts",
+      "path_id": "path-git-collab",
+      "module_id": "mod-git-branch-merge",
+      "classification": "core",
+      "lesson_file": "paths/path-git-collab/modules/mod-git-branch-merge/les-git-conflict-resolution.md",
+      "assessment_file": "assessments/les-git-conflict-resolution-assessment.json",
+      "solution_file": "solutions/les-git-conflict-resolution-solution.md"
+    },
+    {
+      "lesson_id": "les-git-team-workflows",
+      "title": "Branching Strategies and Protected Branches",
+      "path_id": "path-git-collab",
+      "module_id": "mod-git-branch-merge",
+      "classification": "core",
+      "lesson_file": "paths/path-git-collab/modules/mod-git-branch-merge/les-git-team-workflows.md",
+      "assessment_file": "assessments/les-git-team-workflows-assessment.json",
+      "solution_file": "solutions/les-git-team-workflows-solution.md"
+    },
+    {
+      "lesson_id": "les-net-packets-layers",
+      "title": "Networks, Packets, and the TCP/IP Layered Model",
+      "path_id": "path-net-comms",
+      "module_id": "mod-net-foundations",
+      "classification": "core",
+      "lesson_file": "paths/path-net-comms/modules/mod-net-foundations/les-net-packets-layers.md",
+      "assessment_file": "assessments/les-net-packets-layers-assessment.json",
+      "solution_file": "solutions/les-net-packets-layers-solution.md"
+    },
+    {
+      "lesson_id": "les-net-ip-ports-nat",
+      "title": "IPv4/IPv6, Subnets, Loopback, and Ports",
+      "path_id": "path-net-comms",
+      "module_id": "mod-net-foundations",
+      "classification": "core",
+      "lesson_file": "paths/path-net-comms/modules/mod-net-foundations/les-net-ip-ports-nat.md",
+      "assessment_file": "assessments/les-net-ip-ports-nat-assessment.json",
+      "solution_file": "solutions/les-net-ip-ports-nat-solution.md"
+    },
+    {
+      "lesson_id": "les-net-dns-resolution",
+      "title": "Domain Name System (DNS) Resolution Lifecycle",
+      "path_id": "path-net-comms",
+      "module_id": "mod-net-foundations",
+      "classification": "core",
+      "lesson_file": "paths/path-net-comms/modules/mod-net-foundations/les-net-dns-resolution.md",
+      "assessment_file": "assessments/les-net-dns-resolution-assessment.json",
+      "solution_file": "solutions/les-net-dns-resolution-solution.md"
+    },
+    {
+      "lesson_id": "les-net-tcp-udp-sockets",
+      "title": "TCP Handshakes, UDP, and OS Network Sockets",
+      "path_id": "path-net-comms",
+      "module_id": "mod-net-transport",
+      "classification": "core",
+      "lesson_file": "paths/path-net-comms/modules/mod-net-transport/les-net-tcp-udp-sockets.md",
+      "assessment_file": "assessments/les-net-tcp-udp-sockets-assessment.json",
+      "solution_file": "solutions/les-net-tcp-udp-sockets-solution.md"
+    },
+    {
+      "lesson_id": "les-net-http-anatomy",
+      "title": "Anatomy of HTTP Requests and Responses",
+      "path_id": "path-net-comms",
+      "module_id": "mod-net-transport",
+      "classification": "core",
+      "lesson_file": "paths/path-net-comms/modules/mod-net-transport/les-net-http-anatomy.md",
+      "assessment_file": "assessments/les-net-http-anatomy-assessment.json",
+      "solution_file": "solutions/les-net-http-anatomy-solution.md"
+    },
+    {
+      "lesson_id": "les-net-tls-https",
+      "title": "TLS Encryption, Certificates, and HTTPS",
+      "path_id": "path-net-comms",
+      "module_id": "mod-net-security-realtime",
+      "classification": "core",
+      "lesson_file": "paths/path-net-comms/modules/mod-net-security-realtime/les-net-tls-https.md",
+      "assessment_file": "assessments/les-net-tls-https-assessment.json",
+      "solution_file": "solutions/les-net-tls-https-solution.md"
+    },
+    {
+      "lesson_id": "les-net-proxies-lb",
+      "title": "Forward Proxies, Reverse Proxies, and Load Balancers",
+      "path_id": "path-net-comms",
+      "module_id": "mod-net-security-realtime",
+      "classification": "core",
+      "lesson_file": "paths/path-net-comms/modules/mod-net-security-realtime/les-net-proxies-lb.md",
+      "assessment_file": "assessments/les-net-proxies-lb-assessment.json",
+      "solution_file": "solutions/les-net-proxies-lb-solution.md"
+    },
+    {
+      "lesson_id": "les-net-websockets-sse",
+      "title": "Real-Time Protocols: WebSockets and SSE",
+      "path_id": "path-net-comms",
+      "module_id": "mod-net-security-realtime",
+      "classification": "advanced",
+      "lesson_file": "paths/path-net-comms/modules/mod-net-security-realtime/les-net-websockets-sse.md",
+      "assessment_file": "assessments/les-net-websockets-sse-assessment.json",
+      "solution_file": "solutions/les-net-websockets-sse-solution.md"
+    },
+    {
+      "lesson_id": "les-net-troubleshooting-cli",
+      "title": "Network Troubleshooting CLI Tools (curl, ping, dig)",
+      "path_id": "path-net-comms",
+      "module_id": "mod-net-security-realtime",
+      "classification": "core",
+      "lesson_file": "paths/path-net-comms/modules/mod-net-security-realtime/les-net-troubleshooting-cli.md",
+      "assessment_file": "assessments/les-net-troubleshooting-cli-assessment.json",
+      "solution_file": "solutions/les-net-troubleshooting-cli-solution.md"
+    },
+    {
+      "lesson_id": "les-arch-what-is-system",
+      "title": "What a Software System Is",
+      "path_id": "path-web-arch",
+      "module_id": "mod-arch-core-concepts",
+      "classification": "core",
+      "lesson_file": "paths/path-web-arch/modules/mod-arch-core-concepts/les-arch-what-is-system.md",
+      "assessment_file": "assessments/les-arch-what-is-system-assessment.json",
+      "solution_file": "solutions/les-arch-what-is-system-solution.md"
+    },
+    {
+      "lesson_id": "les-arch-client-server",
+      "title": "The Client-Server Model and Role Separation",
+      "path_id": "path-web-arch",
+      "module_id": "mod-arch-core-concepts",
+      "classification": "core",
+      "lesson_file": "paths/path-web-arch/modules/mod-arch-core-concepts/les-arch-client-server.md",
+      "assessment_file": "assessments/les-arch-client-server-assessment.json",
+      "solution_file": "solutions/les-arch-client-server-solution.md"
+    },
+    {
+      "lesson_id": "les-arch-request-lifecycle",
+      "title": "End-to-End Request and Response Lifecycle",
+      "path_id": "path-web-arch",
+      "module_id": "mod-arch-core-concepts",
+      "classification": "core",
+      "lesson_file": "paths/path-web-arch/modules/mod-arch-core-concepts/les-arch-request-lifecycle.md",
+      "assessment_file": "assessments/les-arch-request-lifecycle-assessment.json",
+      "solution_file": "solutions/les-arch-request-lifecycle-solution.md"
+    },
+    {
+      "lesson_id": "les-fe-js-syntax-types",
+      "title": "JavaScript Syntax, Types, and Operators",
+      "path_id": "path-web-frontend",
+      "module_id": "mod-fe-js-foundations",
+      "classification": "core",
+      "lesson_file": "paths/path-web-frontend/modules/mod-fe-js-foundations/les-fe-js-syntax-types.md",
+      "assessment_file": "assessments/les-fe-js-syntax-types-assessment.json",
+      "solution_file": "solutions/les-fe-js-syntax-types-solution.md"
+    },
+    {
+      "lesson_id": "les-fe-js-functions-objects",
+      "title": "JavaScript Functions, Arrays, and Objects",
+      "path_id": "path-web-frontend",
+      "module_id": "mod-fe-js-foundations",
+      "classification": "core",
+      "lesson_file": "paths/path-web-frontend/modules/mod-fe-js-foundations/les-fe-js-functions-objects.md",
+      "assessment_file": "assessments/les-fe-js-functions-objects-assessment.json",
+      "solution_file": "solutions/les-fe-js-functions-objects-solution.md"
+    },
+    {
+      "lesson_id": "les-fe-js-modules",
+      "title": "JavaScript ES Modules",
+      "path_id": "path-web-frontend",
+      "module_id": "mod-fe-js-foundations",
+      "classification": "core",
+      "lesson_file": "paths/path-web-frontend/modules/mod-fe-js-foundations/les-fe-js-modules.md",
+      "assessment_file": "assessments/les-fe-js-modules-assessment.json",
+      "solution_file": "solutions/les-fe-js-modules-solution.md"
+    },
+    {
+      "lesson_id": "les-fe-js-async",
+      "title": "Asynchronous JavaScript: Promises and Event Loop",
+      "path_id": "path-web-frontend",
+      "module_id": "mod-fe-js-foundations",
+      "classification": "core",
+      "lesson_file": "paths/path-web-frontend/modules/mod-fe-js-foundations/les-fe-js-async.md",
+      "assessment_file": "assessments/les-fe-js-async-assessment.json",
+      "solution_file": "solutions/les-fe-js-async-solution.md"
+    },
+    {
+      "lesson_id": "les-fe-html-semantics",
+      "title": "Semantic HTML Document Structure and Forms",
+      "path_id": "path-web-frontend",
+      "module_id": "mod-fe-browser-core",
+      "classification": "core",
+      "lesson_file": "paths/path-web-frontend/modules/mod-fe-browser-core/les-fe-html-semantics.md",
+      "assessment_file": "assessments/les-fe-html-semantics-assessment.json",
+      "solution_file": "solutions/les-fe-html-semantics-solution.md"
+    },
+    {
+      "lesson_id": "les-fe-css-layout-responsive",
+      "title": "CSS Box Model, Flexbox, and Responsive Design",
+      "path_id": "path-web-frontend",
+      "module_id": "mod-fe-browser-core",
+      "classification": "core",
+      "lesson_file": "paths/path-web-frontend/modules/mod-fe-browser-core/les-fe-css-layout-responsive.md",
+      "assessment_file": "assessments/les-fe-css-layout-responsive-assessment.json",
+      "solution_file": "solutions/les-fe-css-layout-responsive-solution.md"
+    },
+    {
+      "lesson_id": "les-fe-browser-rendering",
+      "title": "How Browsers Parse, Layout, Paint, and Execute Scripts",
+      "path_id": "path-web-frontend",
+      "module_id": "mod-fe-browser-core",
+      "classification": "advanced",
+      "lesson_file": "paths/path-web-frontend/modules/mod-fe-browser-core/les-fe-browser-rendering.md",
+      "assessment_file": "assessments/les-fe-browser-rendering-assessment.json",
+      "solution_file": "solutions/les-fe-browser-rendering-solution.md"
+    },
+    {
+      "lesson_id": "les-fe-dom-events",
+      "title": "DOM Tree Manipulation and Event Delegation",
+      "path_id": "path-web-frontend",
+      "module_id": "mod-fe-dom-state",
+      "classification": "core",
+      "lesson_file": "paths/path-web-frontend/modules/mod-fe-dom-state/les-fe-dom-events.md",
+      "assessment_file": "assessments/les-fe-dom-events-assessment.json",
+      "solution_file": "solutions/les-fe-dom-events-solution.md"
+    },
+    {
+      "lesson_id": "les-fe-fetch-async-ui",
+      "title": "APIs with Fetch, Async UI, and the Network Tab",
+      "path_id": "path-web-frontend",
+      "module_id": "mod-fe-dom-state",
+      "classification": "core",
+      "lesson_file": "paths/path-web-frontend/modules/mod-fe-dom-state/les-fe-fetch-async-ui.md",
+      "assessment_file": "assessments/les-fe-fetch-async-ui-assessment.json",
+      "solution_file": "solutions/les-fe-fetch-async-ui-solution.md"
+    },
+    {
+      "lesson_id": "les-fe-browser-storage",
+      "title": "Browser Storage: Cookies, localStorage, sessionStorage",
+      "path_id": "path-web-frontend",
+      "module_id": "mod-fe-dom-state",
+      "classification": "core",
+      "lesson_file": "paths/path-web-frontend/modules/mod-fe-dom-state/les-fe-browser-storage.md",
+      "assessment_file": "assessments/les-fe-browser-storage-assessment.json",
+      "solution_file": "solutions/les-fe-browser-storage-solution.md"
+    },
+    {
+      "lesson_id": "les-fe-declarative-components",
+      "title": "Declarative UI Components (React)",
+      "path_id": "path-web-frontend",
+      "module_id": "mod-fe-react-modern",
+      "classification": "core",
+      "lesson_file": "paths/path-web-frontend/modules/mod-fe-react-modern/les-fe-declarative-components.md",
+      "assessment_file": "assessments/les-fe-declarative-components-assessment.json",
+      "solution_file": "solutions/les-fe-declarative-components-solution.md"
+    },
+    {
+      "lesson_id": "les-fe-props-state-lifecycle",
+      "title": "Props, Local State, Controlled Inputs, and Effects",
+      "path_id": "path-web-frontend",
+      "module_id": "mod-fe-react-modern",
+      "classification": "core",
+      "lesson_file": "paths/path-web-frontend/modules/mod-fe-react-modern/les-fe-props-state-lifecycle.md",
+      "assessment_file": "assessments/les-fe-props-state-lifecycle-assessment.json",
+      "solution_file": "solutions/les-fe-props-state-lifecycle-solution.md"
+    },
+    {
+      "lesson_id": "les-fe-global-state",
+      "title": "Global State Management: Context and Stores",
+      "path_id": "path-web-frontend",
+      "module_id": "mod-fe-react-modern",
+      "classification": "advanced",
+      "lesson_file": "paths/path-web-frontend/modules/mod-fe-react-modern/les-fe-global-state.md",
+      "assessment_file": "assessments/les-fe-global-state-assessment.json",
+      "solution_file": "solutions/les-fe-global-state-solution.md"
+    },
+    {
+      "lesson_id": "les-fe-routing-data-fetching",
+      "title": "Client-Side Routing and Server State Synchronization",
+      "path_id": "path-web-frontend",
+      "module_id": "mod-fe-react-modern",
+      "classification": "advanced",
+      "lesson_file": "paths/path-web-frontend/modules/mod-fe-react-modern/les-fe-routing-data-fetching.md",
+      "assessment_file": "assessments/les-fe-routing-data-fetching-assessment.json",
+      "solution_file": "solutions/les-fe-routing-data-fetching-solution.md"
+    },
+    {
+      "lesson_id": "les-fe-a11y-perf",
+      "title": "Web Accessibility (a11y) and Frontend Performance",
+      "path_id": "path-web-frontend",
+      "module_id": "mod-fe-react-modern",
+      "classification": "core",
+      "lesson_file": "paths/path-web-frontend/modules/mod-fe-react-modern/les-fe-a11y-perf.md",
+      "assessment_file": "assessments/les-fe-a11y-perf-assessment.json",
+      "solution_file": "solutions/les-fe-a11y-perf-solution.md"
+    }
+  ]
+}

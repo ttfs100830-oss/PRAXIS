@@ -1,0 +1,101 @@
+{
+  "lesson_id": "les-fe-css-layout-responsive",
+  "title": "CSS Box Model, Flexbox, and Responsive Design",
+  "assessment_version": 1,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. Short-answer and practical items accept equivalent technically correct wording. Practical responses are graded using the supplied guidance.",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": "Which statement best matches this lesson’s central idea: CSS Box Model, Flexbox, and Responsive Design?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The topic is only about changing visual appearance and has no effect on software behavior."
+        },
+        {
+          "id": "b",
+          "text": "The topic removes the need to test, inspect, or verify a change."
+        },
+        {
+          "id": "c",
+          "text": "The topic guarantees every implementation will behave identically in every environment."
+        },
+        {
+          "id": "d",
+          "text": "CSS controls presentation and layout."
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The lesson’s core concept describes the relevant mechanism and its practical role; the other options make unsupported absolute claims.",
+      "id": "les-fe-css-layout-responsive-q1",
+      "points": 1
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "What is the safest first step when applying the lesson in a real project?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Make several unrelated changes at once."
+        },
+        {
+          "id": "b",
+          "text": "Inspect the current state, reproduce or define the expected behavior, and change one thing at a time."
+        },
+        {
+          "id": "c",
+          "text": "Delete configuration and reinstall every tool immediately."
+        },
+        {
+          "id": "d",
+          "text": "Ignore errors if the UI appears to work."
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Controlled changes and observable evidence make failures easier to diagnose and fixes easier to validate.",
+      "id": "les-fe-css-layout-responsive-q2",
+      "points": 1
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Which risk or limitation is specifically worth remembering for CSS Box Model, Flexbox, and Responsive Design?",
+      "options": [
+        {
+          "id": "a",
+          "text": "There are no meaningful limitations."
+        },
+        {
+          "id": "b",
+          "text": "The same command or configuration always works identically on every operating system."
+        },
+        {
+          "id": "c",
+          "text": "A successful first run proves the system is secure and correct."
+        },
+        {
+          "id": "d",
+          "text": "Avoid fixed widths that assume one screen size; test the actual layout at multiple viewport widths."
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "This limitation is called out in the lesson; platform differences and unverified assumptions should not be ignored.",
+      "id": "les-fe-css-layout-responsive-q3",
+      "points": 1
+    },
+    {
+      "type": "short_answer",
+      "prompt": "In 2–4 sentences, explain how the concept in “CSS Box Model, Flexbox, and Responsive Design” helps achieve this goal: Build adaptable layouts using CSS Flexbox and media queries.",
+      "expected_answer_guidance": "A correct response explains the mechanism in the lesson and connects it to the stated learning goal. Equivalent technically correct wording is acceptable.",
+      "points": 2,
+      "id": "les-fe-css-layout-responsive-q4"
+    },
+    {
+      "type": "practical",
+      "prompt": "Complete a small practice task for “CSS Box Model, Flexbox, and Responsive Design”. State what you changed or inspected, the expected result, the actual result, and one limitation.",
+      "expected_answer_guidance": "Award credit for a relevant artifact or reproducible steps, a clear expected-versus-actual comparison, and a technically sound explanation of a limitation. Accept different valid environments and implementations.",
+      "points": 3,
+      "id": "les-fe-css-layout-responsive-q5"
+    }
+  ]
+}

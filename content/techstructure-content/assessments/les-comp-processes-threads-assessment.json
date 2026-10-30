@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-processes-threads",
+  "title": "Processes, Threads, and Memory Allocation",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-processes-threads-q1",
+      "type": "multiple_choice",
+      "prompt": "Which statement about threads in one process is generally true?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They always have separate heaps"
+        },
+        {
+          "id": "b",
+          "text": "They share process memory but have separate execution stacks"
+        },
+        {
+          "id": "c",
+          "text": "They are different names for files"
+        },
+        {
+          "id": "d",
+          "text": "They cannot run concurrently"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Threads share process resources while maintaining separate execution state/stacks.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-processes-threads-q2",
+      "type": "multiple_choice",
+      "prompt": "What does process memory isolation primarily provide?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A guarantee that programs have no bugs"
+        },
+        {
+          "id": "b",
+          "text": "Separation of one process’s address space from another’s"
+        },
+        {
+          "id": "c",
+          "text": "Automatic database backups"
+        },
+        {
+          "id": "d",
+          "text": "Faster DNS"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Virtual memory and OS enforcement isolate process address spaces.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-processes-threads-q3",
+      "type": "scenario",
+      "prompt": "Two threads increment the same shared counter without synchronization. What risk exists?",
+      "expected_answer": "Interleaved reads and writes may cause updates to be lost; synchronization or atomic operations may be needed.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests shared-state reasoning.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-processes-threads-q4",
+      "type": "short_answer",
+      "prompt": "What is virtual memory?",
+      "expected_answer": "It supports isolation, mapping, and memory management; it is not simply the same thing as RAM.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Checks terminology.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-processes-threads-q5",
+      "type": "short_answer",
+      "prompt": "Give one reason to choose multiple processes over threads.",
+      "expected_answer": "Processes have more isolation, though communication and resource costs may be higher.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests design trade-offs.",
+      "points": 1
+    }
+  ]
+}

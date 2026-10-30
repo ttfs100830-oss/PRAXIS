@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-data-formats",
+  "title": "Data Serialization: JSON, YAML, and CSV",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-data-formats-q1",
+      "type": "multiple_choice",
+      "prompt": "What does successful JSON parsing guarantee?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The data satisfies every business rule"
+        },
+        {
+          "id": "b",
+          "text": "The syntax is valid JSON"
+        },
+        {
+          "id": "c",
+          "text": "All fields have expected types"
+        },
+        {
+          "id": "d",
+          "text": "The file is safe to trust"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Parsing checks grammar; schema and domain validation are separate.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-data-formats-q2",
+      "type": "multiple_choice",
+      "prompt": "Why should general CSV data not be parsed with `line.split(\",\")`?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CSV has no commas"
+        },
+        {
+          "id": "b",
+          "text": "Quoted fields may contain commas and escaping rules"
+        },
+        {
+          "id": "c",
+          "text": "CSV is binary only"
+        },
+        {
+          "id": "d",
+          "text": "Split is always unavailable"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "CSV parsers handle quoting, embedded delimiters, and newline rules.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-data-formats-q3",
+      "type": "short_answer",
+      "prompt": "Explain the difference between parsing and validation.",
+      "expected_answer": "Both stages are needed for reliable input handling.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests key distinction.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-data-formats-q4",
+      "type": "scenario",
+      "prompt": "Why use `with open(..., encoding=\"utf-8\")` when reading JSON?",
+      "expected_answer": "Context managers reduce resource leaks.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests file safety.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-data-formats-q5",
+      "type": "practical",
+      "prompt": "Name a safe way to load untrusted YAML in PyYAML and one further check.",
+      "expected_answer": "Safe loading reduces unsafe object construction, but domain validation is still required.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Tests practical safety.",
+      "points": 2
+    }
+  ]
+}

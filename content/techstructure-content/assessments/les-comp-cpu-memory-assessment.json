@@ -1,0 +1,97 @@
+{
+  "lesson_id": "les-comp-cpu-memory",
+  "title": "CPU, RAM, and Persistent Storage",
+  "assessment_version": 2,
+  "passing_score_percent": 80,
+  "instructions": "Answer from the lesson. For short-answer and practical items, equivalent technically correct wording/code earns credit.",
+  "questions": [
+    {
+      "id": "les-comp-cpu-memory-q1",
+      "type": "multiple_choice",
+      "prompt": "Which component executes machine instructions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Persistent storage"
+        },
+        {
+          "id": "b",
+          "text": "CPU"
+        },
+        {
+          "id": "c",
+          "text": "RAM alone"
+        },
+        {
+          "id": "d",
+          "text": "Filesystem"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The CPU fetches and executes instructions; RAM holds active instructions and data.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-cpu-memory-q2",
+      "type": "multiple_choice",
+      "prompt": "What is the key difference between RAM and persistent storage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "RAM is normally volatile; persistent storage retains data without power"
+        },
+        {
+          "id": "b",
+          "text": "RAM is always larger"
+        },
+        {
+          "id": "c",
+          "text": "Persistent storage executes instructions"
+        },
+        {
+          "id": "d",
+          "text": "There is no difference"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "RAM is working memory and is normally volatile; SSDs/HDDs retain stored data.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-cpu-memory-q3",
+      "type": "short_answer",
+      "prompt": "Trace the path from a saved program file to running instructions.",
+      "expected_answer": "The OS loads program code and required data into memory; the CPU executes instructions and uses registers/caches/RAM while the process runs.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "This tests the lesson’s central data-flow objective.",
+      "points": 1
+    },
+    {
+      "id": "les-comp-cpu-memory-q4",
+      "type": "scenario",
+      "prompt": "A value exists only in a variable and the computer loses power. Is it guaranteed to survive? Why?",
+      "expected_answer": "In-memory process state is normally lost on power failure; a saved file or durable database write is needed for persistence.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Distinguishes memory from durable storage.",
+      "points": 2
+    },
+    {
+      "id": "les-comp-cpu-memory-q5",
+      "type": "short_answer",
+      "prompt": "What role can CPU cache play?",
+      "expected_answer": "Cache reduces average latency for data/instructions that can be reused; exact behavior depends on hardware and workload.",
+      "grading_rubric": [
+        "Correctness of concept",
+        "Clear explanation or valid reasoning"
+      ],
+      "explanation": "Checks understanding without requiring universal timing figures.",
+      "points": 1
+    }
+  ]
+}
